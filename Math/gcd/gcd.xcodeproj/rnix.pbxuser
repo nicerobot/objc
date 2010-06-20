@@ -1,8 +1,8 @@
 // !$*UTF8*$!
 {
 	08FB7793FE84155DC02AAC07 /* Project object */ = {
-		activeBuildConfigurationName = Debug;
-		activeTarget = D2AAC0620554660B00DB518D /* gcd.dylib */;
+		activeBuildConfigurationName = Release;
+		activeTarget = 1BD714FD11CEC5030089FF36 /* gcd.a */;
 		addToTargets = (
 			D2AAC0620554660B00DB518D /* gcd.dylib */,
 		);
@@ -52,13 +52,13 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 298762912;
-			PBXWorkspaceStateSaveDate = 298762912;
+			PBXPerProjectTemplateStateSaveDate = 298766485;
+			PBXWorkspaceStateSaveDate = 298766485;
 		};
 		perUserProjectItems = {
 			1BD7151811CEC5740089FF36 /* PBXTextBookmark */ = 1BD7151811CEC5740089FF36 /* PBXTextBookmark */;
-			1BD7151911CEC5740089FF36 /* PBXTextBookmark */ = 1BD7151911CEC5740089FF36 /* PBXTextBookmark */;
-			1BD7156011CEC6770089FF36 /* PBXTextBookmark */ = 1BD7156011CEC6770089FF36 /* PBXTextBookmark */;
+			1BD716C111CED0C40089FF36 /* PBXTextBookmark */ = 1BD716C111CED0C40089FF36 /* PBXTextBookmark */;
+			1BD716C211CED0C40089FF36 /* PBXTextBookmark */ = 1BD716C211CED0C40089FF36 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1BD7125411CEBA090089FF36 /* Source Control */;
 		userBuildSettings = {
@@ -87,7 +87,7 @@
 	};
 	1BD7125811CEBA240089FF36 /* gcd.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {818, 588}}";
+			sepNavIntBoundsRect = "{{0, 0}, {818, 583}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 159}";
 		};
@@ -105,7 +105,7 @@
 		vrLen = 262;
 		vrLoc = 0;
 	};
-	1BD7151911CEC5740089FF36 /* PBXTextBookmark */ = {
+	1BD716C111CED0C40089FF36 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1BD7125811CEBA240089FF36 /* gcd.h */;
 		name = "gcd.h: 1";
@@ -115,7 +115,7 @@
 		vrLen = 159;
 		vrLoc = 0;
 	};
-	1BD7156011CEC6770089FF36 /* PBXTextBookmark */ = {
+	1BD716C211CED0C40089FF36 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1BD7125811CEBA240089FF36 /* gcd.h */;
 		name = "gcd.h: 1";

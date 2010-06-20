@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BD7125911CEBA240089FF36 /* gcd.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7125711CEBA240089FF36 /* gcd.c */; };
-		1BD7125A11CEBA240089FF36 /* gcd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7125811CEBA240089FF36 /* gcd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BD7150611CEC5390089FF36 /* gcd.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7125711CEBA240089FF36 /* gcd.c */; };
-		1BD7150711CEC54C0089FF36 /* gcd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7125811CEBA240089FF36 /* gcd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BD715EF11CECB380089FF36 /* swap.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BD715ED11CECB380089FF36 /* swap.c */; };
+		1BD715F011CECB380089FF36 /* swap.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD715EE11CECB380089FF36 /* swap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BD715F111CECB380089FF36 /* swap.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BD715ED11CECB380089FF36 /* swap.c */; };
+		1BD715F211CECB380089FF36 /* swap.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD715EE11CECB380089FF36 /* swap.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1BD7125711CEBA240089FF36 /* gcd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gcd.c; sourceTree = "<group>"; };
-		1BD7125811CEBA240089FF36 /* gcd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gcd.h; sourceTree = "<group>"; };
-		1BD714FE11CEC5030089FF36 /* libgcd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgcd.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2AAC0630554660B00DB518D /* libgcd.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libgcd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD715DA11CECAF90089FF36 /* libswap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libswap.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD715ED11CECB380089FF36 /* swap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swap.c; sourceTree = "<group>"; };
+		1BD715EE11CECB380089FF36 /* swap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swap.h; sourceTree = "<group>"; };
+		D2AAC0630554660B00DB518D /* libswap.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libswap.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1BD714FC11CEC5030089FF36 /* Frameworks */ = {
+		1BD715D811CECAF90089FF36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,20 +38,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08FB7794FE84155DC02AAC07 /* gcd */ = {
+		08FB7794FE84155DC02AAC07 /* swap */ = {
 			isa = PBXGroup;
 			children = (
 				08FB7795FE84155DC02AAC07 /* Source */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 			);
-			name = gcd;
+			name = swap;
 			sourceTree = "<group>";
 		};
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				1BD7125711CEBA240089FF36 /* gcd.c */,
-				1BD7125811CEBA240089FF36 /* gcd.h */,
+				1BD715ED11CECB380089FF36 /* swap.c */,
+				1BD715EE11CECB380089FF36 /* swap.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -59,8 +59,8 @@
 		1AB674ADFE9D54B511CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC0630554660B00DB518D /* libgcd.dylib */,
-				1BD714FE11CEC5030089FF36 /* libgcd.a */,
+				D2AAC0630554660B00DB518D /* libswap.dylib */,
+				1BD715DA11CECAF90089FF36 /* libswap.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,11 +68,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1BD714FA11CEC5030089FF36 /* Headers */ = {
+		1BD715D611CECAF90089FF36 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD7150711CEC54C0089FF36 /* gcd.h in Headers */,
+				1BD715F211CECB380089FF36 /* swap.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,33 +80,33 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD7125A11CEBA240089FF36 /* gcd.h in Headers */,
+				1BD715F011CECB380089FF36 /* swap.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1BD714FD11CEC5030089FF36 /* gcd.a */ = {
+		1BD715D911CECAF90089FF36 /* swap.a */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BD7151E11CEC5740089FF36 /* Build configuration list for PBXNativeTarget "gcd.a" */;
+			buildConfigurationList = 1BD715E611CECB100089FF36 /* Build configuration list for PBXNativeTarget "swap.a" */;
 			buildPhases = (
-				1BD714FA11CEC5030089FF36 /* Headers */,
-				1BD714FB11CEC5030089FF36 /* Sources */,
-				1BD714FC11CEC5030089FF36 /* Frameworks */,
+				1BD715D611CECAF90089FF36 /* Headers */,
+				1BD715D711CECAF90089FF36 /* Sources */,
+				1BD715D811CECAF90089FF36 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = gcd.a;
-			productName = gcd;
-			productReference = 1BD714FE11CEC5030089FF36 /* libgcd.a */;
+			name = swap.a;
+			productName = swap;
+			productReference = 1BD715DA11CECAF90089FF36 /* libswap.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D2AAC0620554660B00DB518D /* gcd.dylib */ = {
+		D2AAC0620554660B00DB518D /* swap.dylib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "gcd.dylib" */;
+			buildConfigurationList = 1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "swap.dylib" */;
 			buildPhases = (
 				D2AAC0600554660B00DB518D /* Headers */,
 				D2AAC0610554660B00DB518D /* Sources */,
@@ -116,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = gcd.dylib;
-			productName = gcd;
-			productReference = D2AAC0630554660B00DB518D /* libgcd.dylib */;
+			name = swap.dylib;
+			productName = swap;
+			productReference = D2AAC0630554660B00DB518D /* libswap.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -126,25 +126,25 @@
 /* Begin PBXProject section */
 		08FB7793FE84155DC02AAC07 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "gcd" */;
+			buildConfigurationList = 1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "swap" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
-			mainGroup = 08FB7794FE84155DC02AAC07 /* gcd */;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* swap */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AAC0620554660B00DB518D /* gcd.dylib */,
-				1BD714FD11CEC5030089FF36 /* gcd.a */,
+				D2AAC0620554660B00DB518D /* swap.dylib */,
+				1BD715D911CECAF90089FF36 /* swap.a */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1BD714FB11CEC5030089FF36 /* Sources */ = {
+		1BD715D711CECAF90089FF36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD7150611CEC5390089FF36 /* gcd.c in Sources */,
+				1BD715F111CECB380089FF36 /* swap.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,14 +152,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD7125911CEBA240089FF36 /* gcd.c in Sources */,
+				1BD715EF11CECB380089FF36 /* swap.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1BD714FF11CEC5030089FF36 /* Debug */ = {
+		1BD715DB11CECAF90089FF36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -167,12 +167,11 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
-				PRODUCT_NAME = gcd;
-				SYMROOT = ../../build;
+				PRODUCT_NAME = swap;
 			};
 			name = Debug;
 		};
-		1BD7150011CEC5030089FF36 /* Release */ = {
+		1BD715DC11CECAF90089FF36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -180,8 +179,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PREBINDING = NO;
-				PRODUCT_NAME = gcd;
-				SYMROOT = ../../build;
+				PRODUCT_NAME = swap;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -197,8 +195,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = gcd;
-				SYMROOT = ../../build;
+				PRODUCT_NAME = swap;
 			};
 			name = Debug;
 		};
@@ -210,8 +207,7 @@
 				EXECUTABLE_PREFIX = lib;
 				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = gcd;
-				SYMROOT = ../../build;
+				PRODUCT_NAME = swap;
 			};
 			name = Release;
 		};
@@ -244,16 +240,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BD7151E11CEC5740089FF36 /* Build configuration list for PBXNativeTarget "gcd.a" */ = {
+		1BD715E611CECB100089FF36 /* Build configuration list for PBXNativeTarget "swap.a" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BD714FF11CEC5030089FF36 /* Debug */,
-				1BD7150011CEC5030089FF36 /* Release */,
+				1BD715DB11CECAF90089FF36 /* Debug */,
+				1BD715DC11CECAF90089FF36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "gcd.dylib" */ = {
+		1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "swap.dylib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB914B08733D8E0010E9CD /* Debug */,
@@ -262,7 +258,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "gcd" */ = {
+		1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "swap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB914F08733D8E0010E9CD /* Debug */,

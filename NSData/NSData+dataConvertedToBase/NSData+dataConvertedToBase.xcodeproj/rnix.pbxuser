@@ -30,8 +30,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 298760488;
-			PBXWorkspaceStateSaveDate = 298760488;
+			PBXPerProjectTemplateStateSaveDate = 298766632;
+			PBXWorkspaceStateSaveDate = 298766632;
 		};
 		sourceControlManager = 1BD7123511CEB9370089FF36 /* Source Control */;
 		userBuildSettings = {
@@ -50,6 +50,20 @@
 	1BD7123611CEB9370089FF36 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	1BD7123711CEB9790089FF36 /* anybase.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {788, 1014}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 988}";
+		};
+	};
+	1BD7123811CEB9790089FF36 /* Bases.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {788, 704}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 184}";
+		};
 	};
 	8DC2EF4F0486A6940098B216 /* NSData+dataConvertedToBase */ = {
 		activeExec = 0;

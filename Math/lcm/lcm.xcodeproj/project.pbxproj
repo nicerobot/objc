@@ -11,7 +11,7 @@
 		1BD7127311CEBA700089FF36 /* lcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7127111CEBA700089FF36 /* lcm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BD7157811CEC6B10089FF36 /* libgcd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD7156C11CEC67E0089FF36 /* libgcd.a */; };
 		1BD7157911CEC6C20089FF36 /* lcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7127011CEBA700089FF36 /* lcm.c */; };
-		1BD7157A11CEC6C60089FF36 /* lcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7127111CEBA700089FF36 /* lcm.h */; };
+		1BD7157A11CEC6C60089FF36 /* lcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7127111CEBA700089FF36 /* lcm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BD7157B11CEC6CC0089FF36 /* libgcd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD7156C11CEC67E0089FF36 /* libgcd.a */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +27,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 1BD7126711CEBA540089FF36 /* gcd.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 1BD714FE11CEC5030089FF36 /* libgcd.a */;
+			remoteGlobalIDString = 1BD714FE11CEC5030089FF36;
 			remoteInfo = gcd.a;
 		};
 /* End PBXContainerItemProxy section */

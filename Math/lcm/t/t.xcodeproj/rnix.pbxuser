@@ -34,11 +34,44 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					454,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
 			PBXPerProjectTemplateStateSaveDate = 298764085;
 			PBXWorkspaceStateSaveDate = 298764085;
 		};
+		perUserProjectItems = {
+			1BD715B211CECAAE0089FF36 /* PBXTextBookmark */ = 1BD715B211CECAAE0089FF36 /* PBXTextBookmark */;
+			1BD715B311CECAAE0089FF36 /* PBXTextBookmark */ = 1BD715B311CECAAE0089FF36 /* PBXTextBookmark */;
+		};
 		sourceControlManager = 1BD7159B11CEC7420089FF36 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* t.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {672, 693}}";
+			sepNavSelRange = "{212, 0}";
+			sepNavVisRange = "{0, 250}";
 		};
 	};
 	1BD7158C11CEC7350089FF36 /* t */ = {
@@ -84,6 +117,26 @@
 	1BD7159C11CEC7420089FF36 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	1BD715B211CECAAE0089FF36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* t.m */;
+		name = "t.m: 2";
+		rLen = 0;
+		rLoc = 44;
+		rType = 0;
+		vrLen = 245;
+		vrLoc = 0;
+	};
+	1BD715B311CECAAE0089FF36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* t.m */;
+		name = "t.m: 8";
+		rLen = 0;
+		rLoc = 212;
+		rType = 0;
+		vrLen = 250;
+		vrLoc = 0;
 	};
 	8DD76F960486AA7600D96B5E /* t */ = {
 		activeExec = 0;
