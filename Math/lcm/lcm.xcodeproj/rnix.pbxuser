@@ -1,0 +1,145 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = D2AAC0620554660B00DB518D /* lcm.dylib */;
+		addToTargets = (
+			D2AAC0620554660B00DB518D /* lcm.dylib */,
+		);
+		codeSenseManager = 1BD7126E11CEBA540089FF36 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					329.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					520,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					480,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 298763902;
+			PBXWorkspaceStateSaveDate = 298763902;
+		};
+		perUserProjectItems = {
+			1BD7129711CEBBAC0089FF36 = 1BD7129711CEBBAC0089FF36 /* PBXTextBookmark */;
+			1BD7129811CEBBAC0089FF36 = 1BD7129811CEBBAC0089FF36 /* PBXTextBookmark */;
+			1BD7129911CEBBAC0089FF36 = 1BD7129911CEBBAC0089FF36 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1BD7126D11CEBA540089FF36 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	1BD7126D11CEBA540089FF36 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1BD7126E11CEBA540089FF36 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1BD7127011CEBA700089FF36 /* lcm.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {698, 695}}";
+			sepNavSelRange = "{151, 0}";
+			sepNavVisRange = "{0, 266}";
+		};
+	};
+	1BD7127111CEBA700089FF36 /* lcm.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {698, 695}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 159}";
+		};
+	};
+	1BD7129711CEBBAC0089FF36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1BD7127111CEBA700089FF36 /* lcm.h */;
+		name = "lcm.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 159;
+		vrLoc = 0;
+	};
+	1BD7129811CEBBAC0089FF36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1BD7127011CEBA700089FF36 /* lcm.c */;
+		name = "lcm.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 266;
+		vrLoc = 0;
+	};
+	1BD7129911CEBBAC0089FF36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1BD7127011CEBA700089FF36 /* lcm.c */;
+		name = "lcm.c: 10";
+		rLen = 0;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 266;
+		vrLoc = 0;
+	};
+	1BD7157411CEC69B0089FF36 /* lcm.a */ = {
+		activeExec = 0;
+	};
+	D2AAC0620554660B00DB518D /* lcm.dylib */ = {
+		activeExec = 0;
+	};
+}

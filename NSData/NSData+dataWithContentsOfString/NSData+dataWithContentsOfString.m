@@ -11,7 +11,9 @@
 @implementation NSData (dataWithContentsOfString)
 
 +(NSData*) dataWithContentsOfString:(NSString*) str {
+  if (!str) return nil;
   int len = [str length];
+  if (!len) return nil;
   NSMutableData *data = [NSMutableData dataWithCapacity:len];
   // The unichars are extracted character by character and only when they are > 255 will they
   // push multiple bytes to the data.

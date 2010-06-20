@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BD7107911CD8EFB0089FF36 /* NSString+dataWithContentsOfString.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7107711CD8EFB0089FF36 /* NSString+dataWithContentsOfString.h */; };
+		1BD7107911CD8EFB0089FF36 /* NSString+dataWithContentsOfString.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7107711CD8EFB0089FF36 /* NSString+dataWithContentsOfString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BD7107A11CD8EFB0089FF36 /* NSString+dataWithContentsOfString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7107811CD8EFB0089FF36 /* NSString+dataWithContentsOfString.m */; };
+		1BD711FB11CEAC7C0089FF36 /* NSData+dataWithContentsOfString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD711FA11CEAC7C0089FF36 /* NSData+dataWithContentsOfString.framework */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1BD7121011CEAD760089FF36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BD7120C11CEAD760089FF36 /* NSData+dataWithContentsOfString.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216 /* NSData+dataWithContentsOfString.framework */;
+			remoteInfo = "NSData+dataWithContentsOfString";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		1BD7107711CD8EFB0089FF36 /* NSString+dataWithContentsOfString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+dataWithContentsOfString.h"; sourceTree = "<group>"; };
 		1BD7107811CD8EFB0089FF36 /* NSString+dataWithContentsOfString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+dataWithContentsOfString.m"; sourceTree = "<group>"; };
+		1BD711FA11CEAC7C0089FF36 /* NSData+dataWithContentsOfString.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "NSData+dataWithContentsOfString.framework"; path = "/Users/Shared/Dropbox/workspace/projects/github.com/objc/build/Debug/NSData+dataWithContentsOfString.framework"; sourceTree = "<absolute>"; };
+		1BD7120C11CEAD760089FF36 /* NSData+dataWithContentsOfString.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "NSData+dataWithContentsOfString.xcodeproj"; path = "../../NSData/NSData+dataWithContentsOfString/NSData+dataWithContentsOfString.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		32DBCF5E0370ADEE00C91783 /* NSString+dataWithContentsOfString_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+dataWithContentsOfString_Prefix.pch"; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* NSString+dataWithContentsOfString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "NSString+dataWithContentsOfString.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				1BD711FB11CEAC7C0089FF36 /* NSData+dataWithContentsOfString.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,11 +60,13 @@
 		0867D691FE84028FC02AAC07 /* NSString+dataWithContentsOfString */ = {
 			isa = PBXGroup;
 			children = (
+				1BD7120C11CEAD760089FF36 /* NSData+dataWithContentsOfString.xcodeproj */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				089C1665FE841158C02AAC07 /* Resources */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
 				034768DFFF38A50411DB9C8B /* Products */,
+				1BD711FA11CEAC7C0089FF36 /* NSData+dataWithContentsOfString.framework */,
 			);
 			name = "NSString+dataWithContentsOfString";
 			sourceTree = "<group>";
@@ -96,11 +109,16 @@
 		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
-				D2F7E79907B2D74100F64583 /* CoreData.framework */,
-				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1BD7120D11CEAD760089FF36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BD7121111CEAD760089FF36 /* NSData+dataWithContentsOfString.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
@@ -155,12 +173,28 @@
 			mainGroup = 0867D691FE84028FC02AAC07 /* NSString+dataWithContentsOfString */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1BD7120D11CEAD760089FF36 /* Products */;
+					ProjectRef = 1BD7120C11CEAD760089FF36 /* NSData+dataWithContentsOfString.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8DC2EF4F0486A6940098B216 /* NSString+dataWithContentsOfString */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1BD7121111CEAD760089FF36 /* NSData+dataWithContentsOfString.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "NSData+dataWithContentsOfString.framework";
+			remoteRef = 1BD7121011CEAD760089FF36 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8DC2EF520486A6940098B216 /* Resources */ = {
@@ -203,6 +237,10 @@
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../build/Debug\"",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -213,6 +251,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
 				PRODUCT_NAME = "NSString+dataWithContentsOfString";
+				SYMROOT = ../../build;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -224,6 +263,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../build/Release\"",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -231,6 +274,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
 				PRODUCT_NAME = "NSString+dataWithContentsOfString";
+				SYMROOT = ../../build;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;

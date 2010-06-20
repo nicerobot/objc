@@ -7,15 +7,17 @@
 //
 
 #import "NSString+dataWithContentsOfString.h"
+#import "NSData+dataWithContentsOfString/NSData+dataWithContentsOfString.h"
 
 @implementation NSString (dataWithContentsOfString)
 
 + (NSData*) dataWithContentsOfString:(NSString*)str {
-  return nil;
+  if (!str) return nil;
+  return [NSData dataWithContentsOfString:str];
 }
 
 - (NSData*) dataWithContentsOfString {
-  return nil;
+  return [NSString dataWithContentsOfString:self];
 }
 
 @end

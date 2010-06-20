@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BD7102B11CD88B50089FF36 /* NSString+stringAsReverseString.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7102911CD88B50089FF36 /* NSString+stringAsReverseString.h */; };
+		1BD7102B11CD88B50089FF36 /* NSString+stringAsReverseString.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7102911CD88B50089FF36 /* NSString+stringAsReverseString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BD7102C11CD88B50089FF36 /* NSString+stringAsReverseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7102A11CD88B50089FF36 /* NSString+stringAsReverseString.m */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
@@ -213,6 +213,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
 				PRODUCT_NAME = "NSString+stringAsReverseString";
+				SYMROOT = ../../build;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -231,6 +232,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
 				PRODUCT_NAME = "NSString+stringAsReverseString";
+				SYMROOT = ../../build;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;

@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BD7104C11CD8A990089FF36 /* NSData+dataWithContentsOfString.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7104A11CD8A990089FF36 /* NSData+dataWithContentsOfString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BD7104D11CD8A990089FF36 /* NSData+dataWithContentsOfString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7104B11CD8A990089FF36 /* NSData+dataWithContentsOfString.m */; };
+		1BD7123E11CEB9790089FF36 /* anybase.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7123711CEB9790089FF36 /* anybase.c */; };
+		1BD7123F11CEB9790089FF36 /* Bases.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7123811CEB9790089FF36 /* Bases.h */; };
+		1BD7124011CEB9790089FF36 /* NSData+Bases.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7123911CEB9790089FF36 /* NSData+Bases.h */; };
+		1BD7124111CEB9790089FF36 /* NSData+Bases.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7123A11CEB9790089FF36 /* NSData+Bases.m */; };
+		1BD7124211CEB9790089FF36 /* NSData+Bases.m.orig in Resources */ = {isa = PBXBuildFile; fileRef = 1BD7123B11CEB9790089FF36 /* NSData+Bases.m.orig */; };
+		1BD7124311CEB9790089FF36 /* NSString+Bases.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7123C11CEB9790089FF36 /* NSString+Bases.h */; };
+		1BD7124411CEB9790089FF36 /* NSString+Bases.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7123D11CEB9790089FF36 /* NSString+Bases.m */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -18,11 +23,16 @@
 		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		1BD7104A11CD8A990089FF36 /* NSData+dataWithContentsOfString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+dataWithContentsOfString.h"; sourceTree = "<group>"; };
-		1BD7104B11CD8A990089FF36 /* NSData+dataWithContentsOfString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+dataWithContentsOfString.m"; sourceTree = "<group>"; };
-		32DBCF5E0370ADEE00C91783 /* NSData+dataWithContentsOfString_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+dataWithContentsOfString_Prefix.pch"; sourceTree = "<group>"; };
+		1BD7123711CEB9790089FF36 /* anybase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = anybase.c; sourceTree = "<group>"; };
+		1BD7123811CEB9790089FF36 /* Bases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bases.h; sourceTree = "<group>"; };
+		1BD7123911CEB9790089FF36 /* NSData+Bases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Bases.h"; sourceTree = "<group>"; };
+		1BD7123A11CEB9790089FF36 /* NSData+Bases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Bases.m"; sourceTree = "<group>"; };
+		1BD7123B11CEB9790089FF36 /* NSData+Bases.m.orig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSData+Bases.m.orig"; sourceTree = "<group>"; };
+		1BD7123C11CEB9790089FF36 /* NSString+Bases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Bases.h"; sourceTree = "<group>"; };
+		1BD7123D11CEB9790089FF36 /* NSString+Bases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Bases.m"; sourceTree = "<group>"; };
+		32DBCF5E0370ADEE00C91783 /* NSData+dataConvertedToBase_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+dataConvertedToBase_Prefix.pch"; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DC2EF5B0486A6940098B216 /* NSData+dataWithContentsOfString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "NSData+dataWithContentsOfString.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC2EF5B0486A6940098B216 /* NSData+dataConvertedToBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "NSData+dataConvertedToBase.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -41,21 +51,23 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DC2EF5B0486A6940098B216 /* NSData+dataWithContentsOfString.framework */,
+				8DC2EF5B0486A6940098B216 /* NSData+dataConvertedToBase.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0867D691FE84028FC02AAC07 /* NSData+dataWithContentsOfString */ = {
+		0867D691FE84028FC02AAC07 /* NSData+dataConvertedToBase */ = {
 			isa = PBXGroup;
 			children = (
+				1BD7123811CEB9790089FF36 /* Bases.h */,
+				1BD7123711CEB9790089FF36 /* anybase.c */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				089C1665FE841158C02AAC07 /* Resources */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
-			name = "NSData+dataWithContentsOfString";
+			name = "NSData+dataConvertedToBase";
 			sourceTree = "<group>";
 		};
 		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
@@ -79,8 +91,11 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1BD7104A11CD8A990089FF36 /* NSData+dataWithContentsOfString.h */,
-				1BD7104B11CD8A990089FF36 /* NSData+dataWithContentsOfString.m */,
+				1BD7123911CEB9790089FF36 /* NSData+Bases.h */,
+				1BD7123A11CEB9790089FF36 /* NSData+Bases.m */,
+				1BD7123B11CEB9790089FF36 /* NSData+Bases.m.orig */,
+				1BD7123C11CEB9790089FF36 /* NSString+Bases.h */,
+				1BD7123D11CEB9790089FF36 /* NSString+Bases.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -106,7 +121,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCF5E0370ADEE00C91783 /* NSData+dataWithContentsOfString_Prefix.pch */,
+				32DBCF5E0370ADEE00C91783 /* NSData+dataConvertedToBase_Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -118,16 +133,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD7104C11CD8A990089FF36 /* NSData+dataWithContentsOfString.h in Headers */,
+				1BD7123F11CEB9790089FF36 /* Bases.h in Headers */,
+				1BD7124011CEB9790089FF36 /* NSData+Bases.h in Headers */,
+				1BD7124311CEB9790089FF36 /* NSString+Bases.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8DC2EF4F0486A6940098B216 /* NSData+dataWithContentsOfString */ = {
+		8DC2EF4F0486A6940098B216 /* NSData+dataConvertedToBase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "NSData+dataWithContentsOfString" */;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "NSData+dataConvertedToBase" */;
 			buildPhases = (
 				8DC2EF500486A6940098B216 /* Headers */,
 				8DC2EF520486A6940098B216 /* Resources */,
@@ -138,10 +155,10 @@
 			);
 			dependencies = (
 			);
-			name = "NSData+dataWithContentsOfString";
+			name = "NSData+dataConvertedToBase";
 			productInstallPath = "$(HOME)/Library/Frameworks";
-			productName = "NSData+dataWithContentsOfString";
-			productReference = 8DC2EF5B0486A6940098B216 /* NSData+dataWithContentsOfString.framework */;
+			productName = "NSData+dataConvertedToBase";
+			productReference = 8DC2EF5B0486A6940098B216 /* NSData+dataConvertedToBase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -149,15 +166,15 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "NSData+dataWithContentsOfString" */;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "NSData+dataConvertedToBase" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
-			mainGroup = 0867D691FE84028FC02AAC07 /* NSData+dataWithContentsOfString */;
+			mainGroup = 0867D691FE84028FC02AAC07 /* NSData+dataConvertedToBase */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DC2EF4F0486A6940098B216 /* NSData+dataWithContentsOfString */,
+				8DC2EF4F0486A6940098B216 /* NSData+dataConvertedToBase */,
 			);
 		};
 /* End PBXProject section */
@@ -168,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+				1BD7124211CEB9790089FF36 /* NSData+Bases.m.orig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +196,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD7104D11CD8A990089FF36 /* NSData+dataWithContentsOfString.m in Sources */,
+				1BD7123E11CEB9790089FF36 /* anybase.c in Sources */,
+				1BD7124111CEB9790089FF36 /* NSData+Bases.m in Sources */,
+				1BD7124411CEB9790089FF36 /* NSString+Bases.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,12 +229,10 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSData+dataWithContentsOfString_Prefix.pch";
+				GCC_PREFIX_HEADER = "NSData+dataConvertedToBase_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
-				PRODUCT_NAME = "NSData+dataWithContentsOfString";
-				SDKROOT = macosx10.6;
-				SYMROOT = ../../build;
+				PRODUCT_NAME = "NSData+dataConvertedToBase";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -229,12 +247,10 @@
 				FRAMEWORK_VERSION = A;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSData+dataWithContentsOfString_Prefix.pch";
+				GCC_PREFIX_HEADER = "NSData+dataConvertedToBase_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
-				PRODUCT_NAME = "NSData+dataWithContentsOfString";
-				SDKROOT = macosx10.6;
-				SYMROOT = ../../build;
+				PRODUCT_NAME = "NSData+dataConvertedToBase";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -268,7 +284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "NSData+dataWithContentsOfString" */ = {
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "NSData+dataConvertedToBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB91AE08733DA50010E9CD /* Debug */,
@@ -277,7 +293,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "NSData+dataWithContentsOfString" */ = {
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "NSData+dataConvertedToBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB91B208733DA50010E9CD /* Debug */,

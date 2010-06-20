@@ -17,6 +17,7 @@ todo.md
 .settings
 .project
 .classpath
+*.1
 *.class
 *.pyc
 *.jar
