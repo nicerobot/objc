@@ -40,7 +40,14 @@ int zero(uint32_t* number, int size) {
 /**
  * non power-of-2 base conversion. why doesn't it work for others?!
  */
--(NSString*) toOffBase:(int) base withPadding:(BOOL) pad {
+-(NSString*) stringAsBaseX:(int) base {
+  return [self stringAsBaseX:base withPadding:true];
+}
+
+/**
+ * non power-of-2 base conversion. why doesn't it work for others?!
+ */
+-(NSString*) stringAsBaseX:(int) base withPadding:(BOOL) pad {
   
   // baseN
   NSString *bases = [BaseCharacters get:base];

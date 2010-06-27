@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BD7127211CEBA700089FF36 /* lcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7127011CEBA700089FF36 /* lcm.c */; };
-		1BD7127311CEBA700089FF36 /* lcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7127111CEBA700089FF36 /* lcm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BD7157811CEC6B10089FF36 /* libgcd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD7156C11CEC67E0089FF36 /* libgcd.a */; };
 		1BD7157911CEC6C20089FF36 /* lcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7127011CEBA700089FF36 /* lcm.c */; };
 		1BD7157A11CEC6C60089FF36 /* lcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7127111CEBA700089FF36 /* lcm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BD7157B11CEC6CC0089FF36 /* libgcd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD7156C11CEC67E0089FF36 /* libgcd.a */; };
@@ -20,15 +17,8 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 1BAC99D111D7F4D200A1B012 /* t.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E /* t */;
+			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
 			remoteInfo = t;
-		};
-		1BD7126B11CEBA540089FF36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1BD7126711CEBA540089FF36 /* gcd.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2AAC0630554660B00DB518D;
-			remoteInfo = gcd;
 		};
 		1BD7156B11CEC67E0089FF36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -45,7 +35,6 @@
 		1BD7127011CEBA700089FF36 /* lcm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcm.c; sourceTree = "<group>"; };
 		1BD7127111CEBA700089FF36 /* lcm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcm.h; sourceTree = "<group>"; };
 		1BD7157511CEC69B0089FF36 /* liblcm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblcm.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2AAC0630554660B00DB518D /* liblcm.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblcm.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +43,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BD7157B11CEC6CC0089FF36 /* libgcd.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D289988505E68E00004EDB86 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BD7157811CEC6B10089FF36 /* libgcd.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +72,6 @@
 		1AB674ADFE9D54B511CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC0630554660B00DB518D /* liblcm.dylib */,
 				1BD7157511CEC69B0089FF36 /* liblcm.a */,
 			);
 			name = Products;
@@ -108,7 +88,6 @@
 		1BD7126811CEBA540089FF36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BD7126C11CEBA540089FF36 /* libgcd.dylib */,
 				1BD7156C11CEC67E0089FF36 /* libgcd.a */,
 			);
 			name = Products;
@@ -122,14 +101,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BD7157A11CEC6C60089FF36 /* lcm.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2AAC0600554660B00DB518D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BD7127311CEBA700089FF36 /* lcm.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,23 +123,6 @@
 			productName = lcm;
 			productReference = 1BD7157511CEC69B0089FF36 /* liblcm.a */;
 			productType = "com.apple.product-type.library.static";
-		};
-		D2AAC0620554660B00DB518D /* lcm.dylib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "lcm.dylib" */;
-			buildPhases = (
-				D2AAC0600554660B00DB518D /* Headers */,
-				D2AAC0610554660B00DB518D /* Sources */,
-				D289988505E68E00004EDB86 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = lcm.dylib;
-			productName = lcm;
-			productReference = D2AAC0630554660B00DB518D /* liblcm.dylib */;
-			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
@@ -195,7 +149,6 @@
 			);
 			projectRoot = "";
 			targets = (
-				D2AAC0620554660B00DB518D /* lcm.dylib */,
 				1BD7157411CEC69B0089FF36 /* lcm.a */,
 			);
 		};
@@ -207,13 +160,6 @@
 			fileType = "compiled.mach-o.executable";
 			path = t;
 			remoteRef = 1BAC99D911D7F4D200A1B012 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1BD7126C11CEBA540089FF36 /* libgcd.dylib */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = libgcd.dylib;
-			remoteRef = 1BD7126B11CEBA540089FF36 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		1BD7156C11CEC67E0089FF36 /* libgcd.a */ = {
@@ -231,14 +177,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BD7157911CEC6C20089FF36 /* lcm.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2AAC0610554660B00DB518D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BD7127211CEBA700089FF36 /* lcm.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,47 +209,6 @@
 				SYMROOT = /tmp/build;
 				USER_HEADER_SEARCH_PATHS = ../gcd;
 				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		1DEB914B08733D8E0010E9CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				EXECUTABLE_PREFIX = lib;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				INSTALL_PATH = /usr/local/lib;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../build/Debug\"",
-					"\"$(SRCROOT)/../../build/Release\"",
-				);
-				PRODUCT_NAME = lcm;
-				SYMROOT = /tmp/build;
-				USER_HEADER_SEARCH_PATHS = ../gcd;
-			};
-			name = Debug;
-		};
-		1DEB914C08733D8E0010E9CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				EXECUTABLE_PREFIX = lib;
-				GCC_MODEL_TUNING = G5;
-				INSTALL_PATH = /usr/local/lib;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../build/Debug\"",
-					"\"$(SRCROOT)/../../build/Release\"",
-				);
-				PRODUCT_NAME = lcm;
-				SYMROOT = /tmp/build;
-				USER_HEADER_SEARCH_PATHS = ../gcd;
 			};
 			name = Release;
 		};
@@ -351,15 +248,6 @@
 			buildConfigurations = (
 				1BD7157611CEC69B0089FF36 /* Debug */,
 				1BD7157711CEC69B0089FF36 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "lcm.dylib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DEB914B08733D8E0010E9CD /* Debug */,
-				1DEB914C08733D8E0010E9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

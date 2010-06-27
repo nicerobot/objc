@@ -302,8 +302,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>1</integer>
-									<integer>0</integer>
+									<integer>7</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -352,10 +351,10 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1BAC9A4111D7F53500A1B012</string>
+										<string>1B7EE84911D7FFF10066044C</string>
 										<key>history</key>
 										<array>
-											<string>1BAC99BD11D7F4A400A1B012</string>
+											<string>1BAC9B5E11D7F85100A1B012</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -369,18 +368,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {842, 759}}</string>
+								<string>{{0, 0}, {842, 751}}</string>
 								<key>RubberWindowFrame</key>
 								<string>70 50 1049 978 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>759pt</string>
+							<string>751pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>173pt</string>
+							<string>181pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -394,7 +393,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {842, 146}}</string>
+										<string>{{10, 27}, {842, 154}}</string>
 										<key>RubberWindowFrame</key>
 										<string>70 50 1049 978 0 0 1680 1028 </string>
 									</dict>
@@ -478,11 +477,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1BAC9A4211D7F53500A1B012</string>
+				<string>1B7EE84A11D7FFF10066044C</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>1BAC9A4311D7F53500A1B012</string>
+				<string>1B7EE84B11D7FFF10066044C</string>
 				<string>1BD24D4111D7F19900D04F14</string>
-				<string>1BAC9A4411D7F53500A1B012</string>
+				<string>1B7EE84C11D7FFF10066044C</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -635,7 +634,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>299365685.05988598</real>
+	<real>299368433.11543798</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
