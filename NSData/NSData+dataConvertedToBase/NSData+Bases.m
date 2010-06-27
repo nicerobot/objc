@@ -6,10 +6,10 @@
 //  Copyright 2010 nicerobot.org. All rights reserved.
 //
 #import <CommonCrypto/CommonHMAC.h>
-#import "BaseChars.h"
+#import "BaseCharacters/BaseCharacters.h"
 #import "lcm.h"
 #import "NSData+Bases.h"
-#import "NSString+reverse.h"
+#import "NSString+stringAsReverseString/NSString+stringAsReverseString.h"
 
 uint32_t divideBy(int base, uint32_t * number, int size) {
   uint32_t r = 0;
@@ -43,7 +43,7 @@ int zero(uint32_t* number, int size) {
 -(NSString*) toOffBase:(int) base withPadding:(BOOL) pad {
   
   // baseN
-  NSString *bases = [BaseChars get:base];
+  NSString *bases = [BaseCharacters get:base];
   if (!bases) return nil;
   
   int size = [self length];
@@ -67,13 +67,13 @@ int zero(uint32_t* number, int size) {
     [result appendFormat:@"%c",c];
   } while(!zero(number,size));
   
-  return [result reverse];
+  return [result stringAsReverseString];
 }
 
 -(NSString*) toBase:(int) base withPadding:(BOOL) pad {
 
   // baseN
-  NSString *bases = [BaseChars get:base];
+  NSString *bases = [BaseCharacters get:base];
   if (!bases) return nil;
 
   unsigned char length = [bases length] - 1;

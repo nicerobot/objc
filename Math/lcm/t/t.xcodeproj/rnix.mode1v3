@@ -195,7 +195,32 @@
 	<key>Name</key>
 	<string>Default</string>
 	<key>Notifications</key>
-	<array/>
+	<array>
+		<dict>
+			<key>XCObserverAutoDisconnectKey</key>
+			<true/>
+			<key>XCObserverDefintionKey</key>
+			<dict>
+				<key>PBXStatusErrorsKey</key>
+				<integer>0</integer>
+			</dict>
+			<key>XCObserverFactoryKey</key>
+			<string>XCPerspectivesSpecificationIdentifier</string>
+			<key>XCObserverGUIDKey</key>
+			<string>XCObserverProjectIdentifier</string>
+			<key>XCObserverNotificationKey</key>
+			<string>PBXStatusBuildStateMessageNotification</string>
+			<key>XCObserverTargetKey</key>
+			<string>XCMainBuildResultsModuleGUID</string>
+			<key>XCObserverTriggerKey</key>
+			<string>awakenModuleWithObserver:</string>
+			<key>XCObserverValidationKey</key>
+			<dict>
+				<key>PBXStatusErrorsKey</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+	</array>
 	<key>OpenEditors</key>
 	<array/>
 	<key>PerspectiveWidths</key>
@@ -229,6 +254,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -266,17 +293,12 @@
 								<string>08FB7794FE84155DC02AAC07</string>
 								<string>1BD7159211CEC7420089FF36</string>
 								<string>1C37FBAC04509CD000000102</string>
-								<string>1BD715AE11CECAAE0089FF36</string>
-								<string>1BD715AF11CECAAE0089FF36</string>
-								<string>1BD715B011CECAAE0089FF36</string>
-								<string>1BD715B111CECAAE0089FF36</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
-									<integer>8</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -310,8 +332,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -329,10 +349,10 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1BD715B311CECAAE0089FF36</string>
+										<string>1B9EF45F11D7C3A700298000</string>
 										<key>history</key>
 										<array>
-											<string>1BD715B211CECAAE0089FF36</string>
+											<string>1B9EF40811D7C34200298000</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -344,14 +364,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {733, 725}}</string>
+								<string>{{0, 0}, {733, 717}}</string>
 								<key>RubberWindowFrame</key>
 								<string>173 76 941 952 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>725pt</string>
+							<string>717pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -364,14 +384,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 730}, {733, 181}}</string>
+								<string>{{0, 722}, {733, 189}}</string>
 								<key>RubberWindowFrame</key>
 								<string>173 76 941 952 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>189pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -390,9 +410,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1BD715B411CECAAE0089FF36</string>
+				<string>1B9EF46011D7C3A700298000</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>1BD715B511CECAAE0089FF36</string>
+				<string>1B9EF46111D7C3A700298000</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -513,7 +533,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>0.0</real>
+	<real>299352999.09996998</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -530,12 +550,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1BD715C011CECAAE0089FF36</string>
-		<string>1BD715C111CECAAE0089FF36</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1BD715B711CECAAE0089FF36</string>
 		<string>/Users/Shared/Dropbox/workspace/projects/github.com/objc/Math/lcm/t/t.xcodeproj</string>
-		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>173 76 941 952 0 0 1680 1028 </string>
@@ -583,9 +599,9 @@
 								<key>PBXProjectModuleLabel</key>
 								<string>Build Results</string>
 								<key>XCBuildResultsTrigger_Collapse</key>
-								<integer>1021</integer>
+								<integer>1022</integer>
 								<key>XCBuildResultsTrigger_Open</key>
-								<integer>1011</integer>
+								<integer>1012</integer>
 							</dict>
 							<key>GeometryConfiguration</key>
 							<dict>
@@ -615,7 +631,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1BD715B711CECAAE0089FF36</string>
-				<string>1BD715B811CECAAE0089FF36</string>
+				<string>1B9EF45C11D7C39200298000</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

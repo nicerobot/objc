@@ -17,7 +17,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 1BDB9D9511D6DF2D007D2F8D /* NSData+dataConvertedToBase.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216 /* NSData+dataConvertedToBase.framework */;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
 			remoteInfo = "NSData+dataConvertedToBase";
 		};
 /* End PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* t.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = t.m; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		1BDB9D8F11D6DE88007D2F8D /* Unit Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Unit Tests.octest"; path = "build/Debug/Unit Tests.octest"; sourceTree = "<group>"; };
+		1BDB9D8F11D6DE88007D2F8D /* Unit Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDB9D9011D6DE88007D2F8D /* Unit Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit Tests-Info.plist"; sourceTree = "<group>"; };
 		1BDB9D9511D6DF2D007D2F8D /* NSData+dataConvertedToBase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "NSData+dataConvertedToBase.xcodeproj"; path = "../NSData+dataConvertedToBase.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		32A70AAB03705E1F00C91783 /* t_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t_Prefix.pch; sourceTree = "<group>"; };

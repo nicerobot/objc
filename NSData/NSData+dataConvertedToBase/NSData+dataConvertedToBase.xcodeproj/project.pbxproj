@@ -11,9 +11,11 @@
 		1BD7123F11CEB9790089FF36 /* Bases.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7123811CEB9790089FF36 /* Bases.h */; };
 		1BD7124011CEB9790089FF36 /* NSData+Bases.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7123911CEB9790089FF36 /* NSData+Bases.h */; };
 		1BD7124111CEB9790089FF36 /* NSData+Bases.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7123A11CEB9790089FF36 /* NSData+Bases.m */; };
-		1BD7124211CEB9790089FF36 /* NSData+Bases.m.orig in Resources */ = {isa = PBXBuildFile; fileRef = 1BD7123B11CEB9790089FF36 /* NSData+Bases.m.orig */; };
 		1BD7124311CEB9790089FF36 /* NSString+Bases.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7123C11CEB9790089FF36 /* NSString+Bases.h */; };
 		1BD7124411CEB9790089FF36 /* NSString+Bases.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7123D11CEB9790089FF36 /* NSString+Bases.m */; };
+		1BDBA0A011D7B1E8007D2F8D /* NSString+stringAsReverseString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDBA09F11D7B1E8007D2F8D /* NSString+stringAsReverseString.framework */; };
+		1BDBA0C011D7B23D007D2F8D /* BaseCharacters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDBA0BF11D7B23D007D2F8D /* BaseCharacters.framework */; };
+		1BDBA0C211D7B250007D2F8D /* liblcm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDBA0C111D7B250007D2F8D /* liblcm.a */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -27,9 +29,11 @@
 		1BD7123811CEB9790089FF36 /* Bases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bases.h; sourceTree = "<group>"; };
 		1BD7123911CEB9790089FF36 /* NSData+Bases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Bases.h"; sourceTree = "<group>"; };
 		1BD7123A11CEB9790089FF36 /* NSData+Bases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Bases.m"; sourceTree = "<group>"; };
-		1BD7123B11CEB9790089FF36 /* NSData+Bases.m.orig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSData+Bases.m.orig"; sourceTree = "<group>"; };
 		1BD7123C11CEB9790089FF36 /* NSString+Bases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Bases.h"; sourceTree = "<group>"; };
 		1BD7123D11CEB9790089FF36 /* NSString+Bases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Bases.m"; sourceTree = "<group>"; };
+		1BDBA09F11D7B1E8007D2F8D /* NSString+stringAsReverseString.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "NSString+stringAsReverseString.framework"; path = "/tmp/build/Debug/NSString+stringAsReverseString.framework"; sourceTree = "<absolute>"; };
+		1BDBA0BF11D7B23D007D2F8D /* BaseCharacters.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaseCharacters.framework; path = /tmp/build/Debug/BaseCharacters.framework; sourceTree = "<absolute>"; };
+		1BDBA0C111D7B250007D2F8D /* liblcm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblcm.a; path = /tmp/build/Release/liblcm.a; sourceTree = "<absolute>"; };
 		32DBCF5E0370ADEE00C91783 /* NSData+dataConvertedToBase_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+dataConvertedToBase_Prefix.pch"; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* NSData+dataConvertedToBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "NSData+dataConvertedToBase.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +46,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				1BDBA0A011D7B1E8007D2F8D /* NSString+stringAsReverseString.framework in Frameworks */,
+				1BDBA0C011D7B23D007D2F8D /* BaseCharacters.framework in Frameworks */,
+				1BDBA0C211D7B250007D2F8D /* liblcm.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +66,7 @@
 		0867D691FE84028FC02AAC07 /* NSData+dataConvertedToBase */ = {
 			isa = PBXGroup;
 			children = (
+				1BDBA0C111D7B250007D2F8D /* liblcm.a */,
 				1BD7123811CEB9790089FF36 /* Bases.h */,
 				1BD7123711CEB9790089FF36 /* anybase.c */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
@@ -66,6 +74,8 @@
 				089C1665FE841158C02AAC07 /* Resources */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
 				034768DFFF38A50411DB9C8B /* Products */,
+				1BDBA09F11D7B1E8007D2F8D /* NSString+stringAsReverseString.framework */,
+				1BDBA0BF11D7B23D007D2F8D /* BaseCharacters.framework */,
 			);
 			name = "NSData+dataConvertedToBase";
 			sourceTree = "<group>";
@@ -93,7 +103,6 @@
 			children = (
 				1BD7123911CEB9790089FF36 /* NSData+Bases.h */,
 				1BD7123A11CEB9790089FF36 /* NSData+Bases.m */,
-				1BD7123B11CEB9790089FF36 /* NSData+Bases.m.orig */,
 				1BD7123C11CEB9790089FF36 /* NSString+Bases.h */,
 				1BD7123D11CEB9790089FF36 /* NSString+Bases.m */,
 			);
@@ -185,7 +194,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
-				1BD7124211CEB9790089FF36 /* NSData+Bases.m.orig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +231,11 @@
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../build/Debug\"",
+					/tmp/build/Debug,
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -232,7 +245,13 @@
 				GCC_PREFIX_HEADER = "NSData+dataConvertedToBase_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/tmp/build/Release,
+				);
 				PRODUCT_NAME = "NSData+dataConvertedToBase";
+				SYMROOT = /tmp/build;
+				USER_HEADER_SEARCH_PATHS = /tmp/build/Debug/usr/local/include;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -244,13 +263,25 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../build/Debug\"",
+					/tmp/build/Debug,
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSData+dataConvertedToBase_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../build/Release\"",
+					/tmp/build/Release,
+				);
 				PRODUCT_NAME = "NSData+dataConvertedToBase";
+				SYMROOT = /tmp/build;
+				USER_HEADER_SEARCH_PATHS = /tmp/build/Release/usr/local/include;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -266,6 +297,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
+				SYMROOT = /tmp/build;
 			};
 			name = Debug;
 		};
@@ -278,6 +310,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
+				SYMROOT = /tmp/build;
 			};
 			name = Release;
 		};

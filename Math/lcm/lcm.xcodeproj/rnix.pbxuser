@@ -66,17 +66,37 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 298766415;
-			PBXWorkspaceStateSaveDate = 298766415;
+			PBXPerProjectTemplateStateSaveDate = 299352959;
+			PBXWorkspaceStateSaveDate = 299352959;
 		};
 		perUserProjectItems = {
+			1B9EF3F111D7C32B00298000 /* PBXTextBookmark */ = 1B9EF3F111D7C32B00298000 /* PBXTextBookmark */;
+			1B9EF44411D7C38A00298000 /* PBXTextBookmark */ = 1B9EF44411D7C38A00298000 /* PBXTextBookmark */;
 			1BD716A411CED08F0089FF36 /* PBXTextBookmark */ = 1BD716A411CED08F0089FF36 /* PBXTextBookmark */;
-			1BD716A511CED08F0089FF36 /* PBXTextBookmark */ = 1BD716A511CED08F0089FF36 /* PBXTextBookmark */;
-			1BD716A611CED08F0089FF36 /* PBXTextBookmark */ = 1BD716A611CED08F0089FF36 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1BD7126D11CEBA540089FF36 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	1B9EF3F111D7C32B00298000 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1BD7127111CEBA700089FF36 /* lcm.h */;
+		name = "lcm.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 159;
+		vrLoc = 0;
+	};
+	1B9EF44411D7C38A00298000 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1BD7127111CEBA700089FF36 /* lcm.h */;
+		name = "lcm.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 159;
+		vrLoc = 0;
 	};
 	1BD7126D11CEBA540089FF36 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -101,7 +121,7 @@
 	};
 	1BD7127111CEBA700089FF36 /* lcm.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {698, 687}}";
+			sepNavIntBoundsRect = "{{0, 0}, {698, 654}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 159}";
 		};
@@ -117,26 +137,6 @@
 		rLoc = 266;
 		rType = 0;
 		vrLen = 266;
-		vrLoc = 0;
-	};
-	1BD716A511CED08F0089FF36 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1BD7127111CEBA700089FF36 /* lcm.h */;
-		name = "lcm.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 159;
-		vrLoc = 0;
-	};
-	1BD716A611CED08F0089FF36 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1BD7127111CEBA700089FF36 /* lcm.h */;
-		name = "lcm.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 159;
 		vrLoc = 0;
 	};
 	D2AAC0620554660B00DB518D /* lcm.dylib */ = {
