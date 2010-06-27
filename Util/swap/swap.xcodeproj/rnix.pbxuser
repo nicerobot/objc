@@ -4,8 +4,6 @@
 		activeBuildConfigurationName = Debug;
 		activeTarget = 1BD715D911CECAF90089FF36 /* swap.a */;
 		addToTargets = (
-			D2AAC0620554660B00DB518D /* swap.dylib */,
-			1BD715D911CECAF90089FF36 /* swap.a */,
 		);
 		codeSenseManager = 1BD715E811CECB100089FF36 /* Code sense */;
 		perUserDictionary = {
@@ -36,7 +34,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					531,
+					615,
 					60,
 					20,
 					48,
@@ -53,18 +51,18 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 299365070;
-			PBXWorkspaceStateSaveDate = 299365070;
+			PBXPerProjectTemplateStateSaveDate = 299366054;
+			PBXWorkspaceStateSaveDate = 299366054;
 		};
 		perUserProjectItems = {
-			1BD24E2F11D7F32300D04F14 /* PBXTextBookmark */ = 1BD24E2F11D7F32300D04F14 /* PBXTextBookmark */;
-			1BD24E3011D7F32300D04F14 /* PBXTextBookmark */ = 1BD24E3011D7F32300D04F14 /* PBXTextBookmark */;
+			1BAC9A3911D7F52E00A1B012 /* PBXTextBookmark */ = 1BAC9A3911D7F52E00A1B012 /* PBXTextBookmark */;
+			1BAC9AE411D7F6A800A1B012 /* PBXTextBookmark */ = 1BAC9AE411D7F6A800A1B012 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1BD715E711CECB100089FF36 /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	1BD24E2F11D7F32300D04F14 /* PBXTextBookmark */ = {
+	1BAC9A3911D7F52E00A1B012 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1BD715ED11CECB380089FF36 /* swap.c */;
 		name = "swap.c: 17";
@@ -74,7 +72,7 @@
 		vrLen = 228;
 		vrLoc = 0;
 	};
-	1BD24E3011D7F32300D04F14 /* PBXTextBookmark */ = {
+	1BAC9AE411D7F6A800A1B012 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1BD715ED11CECB380089FF36 /* swap.c */;
 		name = "swap.c: 17";
@@ -103,7 +101,7 @@
 	};
 	1BD715ED11CECB380089FF36 /* swap.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {833, 641}}";
+			sepNavIntBoundsRect = "{{0, 0}, {833, 629}}";
 			sepNavSelRange = "{228, 0}";
 			sepNavVisRange = "{0, 228}";
 		};

@@ -16,6 +16,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1BAC99D911D7F4D200A1B012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BAC99D111D7F4D200A1B012 /* t.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E /* t */;
+			remoteInfo = t;
+		};
 		1BD7126B11CEBA540089FF36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1BD7126711CEBA540089FF36 /* gcd.xcodeproj */;
@@ -33,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BAC99D111D7F4D200A1B012 /* t.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = t.xcodeproj; path = t/t.xcodeproj; sourceTree = "<group>"; };
 		1BD7126711CEBA540089FF36 /* gcd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = gcd.xcodeproj; path = ../gcd/gcd.xcodeproj; sourceTree = SOURCE_ROOT; };
 		1BD7127011CEBA700089FF36 /* lcm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcm.c; sourceTree = "<group>"; };
 		1BD7127111CEBA700089FF36 /* lcm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcm.h; sourceTree = "<group>"; };
@@ -63,6 +71,7 @@
 		08FB7794FE84155DC02AAC07 /* lcm */ = {
 			isa = PBXGroup;
 			children = (
+				1BAC99D111D7F4D200A1B012 /* t.xcodeproj */,
 				1BD7126711CEBA540089FF36 /* gcd.xcodeproj */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
@@ -84,6 +93,14 @@
 			children = (
 				D2AAC0630554660B00DB518D /* liblcm.dylib */,
 				1BD7157511CEC69B0089FF36 /* liblcm.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BAC99D211D7F4D200A1B012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BAC99DA11D7F4D200A1B012 /* t */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,6 +188,10 @@
 					ProductGroup = 1BD7126811CEBA540089FF36 /* Products */;
 					ProjectRef = 1BD7126711CEBA540089FF36 /* gcd.xcodeproj */;
 				},
+				{
+					ProductGroup = 1BAC99D211D7F4D200A1B012 /* Products */;
+					ProjectRef = 1BAC99D111D7F4D200A1B012 /* t.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -181,6 +202,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		1BAC99DA11D7F4D200A1B012 /* t */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = t;
+			remoteRef = 1BAC99D911D7F4D200A1B012 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		1BD7126C11CEBA540089FF36 /* libgcd.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";

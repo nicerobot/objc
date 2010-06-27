@@ -66,7 +66,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					568,
+					641,
 					60,
 					20,
 					48,
@@ -83,12 +83,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 299365218;
-			PBXWorkspaceStateSaveDate = 299365218;
+			PBXPerProjectTemplateStateSaveDate = 299365848;
+			PBXWorkspaceStateSaveDate = 299365848;
 		};
 		perUserProjectItems = {
-			1BD24E2511D7F2E400D04F14 /* PBXTextBookmark */ = 1BD24E2511D7F2E400D04F14 /* PBXTextBookmark */;
-			1BD24E9911D7F36700D04F14 /* PBXTextBookmark */ = 1BD24E9911D7F36700D04F14 /* PBXTextBookmark */;
+			1BAC9ACD11D7F67800A1B012 /* PBXTextBookmark */ = 1BAC9ACD11D7F67800A1B012 /* PBXTextBookmark */;
+			1BAC9AD011D7F68000A1B012 /* PBXTextBookmark */ = 1BAC9AD011D7F68000A1B012 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1BDB9DEA11D6DFF5007D2F8D /* Source Control */;
 		userBuildSettings = {
@@ -96,29 +96,29 @@
 	};
 	08FB7796FE84155DC02AAC07 /* t.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {859, 634}}";
-			sepNavSelRange = "{226, 0}";
-			sepNavVisRange = "{0, 226}";
+			sepNavIntBoundsRect = "{{0, 0}, {859, 622}}";
+			sepNavSelRange = "{258, 0}";
+			sepNavVisRange = "{0, 331}";
 		};
 	};
-	1BD24E2511D7F2E400D04F14 /* PBXTextBookmark */ = {
+	1BAC9ACD11D7F67800A1B012 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* t.m */;
 		name = "t.m: 8";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 258;
 		rType = 0;
-		vrLen = 234;
+		vrLen = 331;
 		vrLoc = 0;
 	};
-	1BD24E9911D7F36700D04F14 /* PBXTextBookmark */ = {
+	1BAC9AD011D7F68000A1B012 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* t.m */;
-		name = "t.m: 11";
+		name = "t.m: 8";
 		rLen = 0;
-		rLoc = 226;
+		rLoc = 258;
 		rType = 0;
-		vrLen = 226;
+		vrLen = 331;
 		vrLoc = 0;
 	};
 	1BDB9DD811D6DFDD007D2F8D /* t */ = {
@@ -137,6 +137,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -144,6 +145,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = t;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);

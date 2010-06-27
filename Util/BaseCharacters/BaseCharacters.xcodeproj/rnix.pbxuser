@@ -4,7 +4,6 @@
 		activeBuildConfigurationName = Debug;
 		activeTarget = 8DC2EF4F0486A6940098B216 /* BaseCharacters */;
 		addToTargets = (
-			8DC2EF4F0486A6940098B216 /* BaseCharacters */,
 		);
 		breakpoints = (
 		);
@@ -54,25 +53,25 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 299365036;
-			PBXWorkspaceStateSaveDate = 299365036;
+			PBXPerProjectTemplateStateSaveDate = 299365694;
+			PBXWorkspaceStateSaveDate = 299365694;
 		};
 		perUserProjectItems = {
-			1BD24E3A11D7F34F00D04F14 /* PBXTextBookmark */ = 1BD24E3A11D7F34F00D04F14 /* PBXTextBookmark */;
+			1BAC9A8911D7F59100A1B012 /* PBXTextBookmark */ = 1BAC9A8911D7F59100A1B012 /* PBXTextBookmark */;
 			1BD24E3B11D7F34F00D04F14 /* PBXTextBookmark */ = 1BD24E3B11D7F34F00D04F14 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1BDB9EF311D78681007D2F8D /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	1BD24E3A11D7F34F00D04F14 /* PBXTextBookmark */ = {
+	1BAC9A8911D7F59100A1B012 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1BDB9EF711D7869E007D2F8D /* BaseCharacters.m */;
 		name = "BaseCharacters.m: 86";
 		rLen = 0;
 		rLoc = 2703;
 		rType = 0;
-		vrLen = 1290;
+		vrLen = 1286;
 		vrLoc = 1621;
 	};
 	1BD24E3B11D7F34F00D04F14 /* PBXTextBookmark */ = {
@@ -110,7 +109,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {818, 1339}}";
 			sepNavSelRange = "{2703, 0}";
-			sepNavVisRange = "{1621, 1290}";
+			sepNavVisRange = "{1621, 1286}";
 		};
 	};
 	8DC2EF4F0486A6940098B216 /* BaseCharacters */ = {

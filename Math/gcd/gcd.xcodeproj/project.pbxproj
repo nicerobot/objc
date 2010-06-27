@@ -13,7 +13,18 @@
 		1BD7150711CEC54C0089FF36 /* gcd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7125811CEBA240089FF36 /* gcd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1BAC99AD11D7F48F00A1B012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BAC99A511D7F48F00A1B012 /* t.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E /* t */;
+			remoteInfo = t;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1BAC99A511D7F48F00A1B012 /* t.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = t.xcodeproj; path = t/t.xcodeproj; sourceTree = "<group>"; };
 		1BD7125711CEBA240089FF36 /* gcd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gcd.c; sourceTree = "<group>"; };
 		1BD7125811CEBA240089FF36 /* gcd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gcd.h; sourceTree = "<group>"; };
 		1BD714FE11CEC5030089FF36 /* libgcd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgcd.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +52,7 @@
 		08FB7794FE84155DC02AAC07 /* gcd */ = {
 			isa = PBXGroup;
 			children = (
+				1BAC99A511D7F48F00A1B012 /* t.xcodeproj */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 			);
@@ -61,6 +73,14 @@
 			children = (
 				D2AAC0630554660B00DB518D /* libgcd.dylib */,
 				1BD714FE11CEC5030089FF36 /* libgcd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BAC99A611D7F48F00A1B012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BAC99AE11D7F48F00A1B012 /* t */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +154,12 @@
 			hasScannedForEncodings = 1;
 			mainGroup = 08FB7794FE84155DC02AAC07 /* gcd */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1BAC99A611D7F48F00A1B012 /* Products */;
+					ProjectRef = 1BAC99A511D7F48F00A1B012 /* t.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D2AAC0620554660B00DB518D /* gcd.dylib */,
@@ -141,6 +167,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1BAC99AE11D7F48F00A1B012 /* t */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = t;
+			remoteRef = 1BAC99AD11D7F48F00A1B012 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1BD714FB11CEC5030089FF36 /* Sources */ = {
