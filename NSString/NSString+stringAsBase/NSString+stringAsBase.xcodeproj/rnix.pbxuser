@@ -76,13 +76,13 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 299363620;
-			PBXWorkspaceStateSaveDate = 299363620;
+			PBXPerProjectTemplateStateSaveDate = 299365069;
+			PBXWorkspaceStateSaveDate = 299365069;
 		};
 		perUserProjectItems = {
 			1B9EF79311D7EE9C00298000 /* PBXTextBookmark */ = 1B9EF79311D7EE9C00298000 /* PBXTextBookmark */;
-			1B9EF79411D7EE9C00298000 /* XCBuildMessageTextBookmark */ = 1B9EF79411D7EE9C00298000 /* XCBuildMessageTextBookmark */;
 			1B9EF81711D7EF3600298000 /* PBXTextBookmark */ = 1B9EF81711D7EF3600298000 /* PBXTextBookmark */;
+			1BD24E3911D7F34D00D04F14 /* PBXTextBookmark */ = 1BD24E3911D7F34D00D04F14 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1B9EF4D011D7C8E200298000 /* Source Control */;
 		userBuildSettings = {
@@ -111,9 +111,9 @@
 	};
 	1B9EF52911D7C9BD00298000 /* NSString+stringAsBase.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {694, 845}}";
+			sepNavIntBoundsRect = "{{0, 0}, {694, 871}}";
 			sepNavSelRange = "{976, 0}";
-			sepNavVisRange = "{79, 1855}";
+			sepNavVisRange = "{34, 1999}";
 		};
 	};
 	1B9EF79311D7EE9C00298000 /* PBXTextBookmark */ = {
@@ -126,15 +126,6 @@
 		vrLen = 812;
 		vrLoc = 0;
 	};
-	1B9EF79411D7EE9C00298000 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "'NSMutableData' may not respond to '-stringAsBase:withPadding:'";
-		fRef = 1B9EF52911D7C9BD00298000 /* NSString+stringAsBase.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 28;
-		rType = 1;
-	};
 	1B9EF81711D7EF3600298000 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1B9EF52911D7C9BD00298000 /* NSString+stringAsBase.m */;
@@ -144,6 +135,16 @@
 		rType = 0;
 		vrLen = 1855;
 		vrLoc = 79;
+	};
+	1BD24E3911D7F34D00D04F14 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1B9EF52911D7C9BD00298000 /* NSString+stringAsBase.m */;
+		name = "NSString+stringAsBase.m: 29";
+		rLen = 0;
+		rLoc = 976;
+		rType = 0;
+		vrLen = 1999;
+		vrLoc = 34;
 	};
 	8DC2EF4F0486A6940098B216 /* NSString+stringAsBase */ = {
 		activeExec = 0;

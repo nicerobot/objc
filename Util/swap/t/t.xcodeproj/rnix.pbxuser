@@ -44,7 +44,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					458,
+					671,
 					20,
 					48,
 					43,
@@ -83,13 +83,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 299353327;
-			PBXWorkspaceStateSaveDate = 299353327;
+			PBXPerProjectTemplateStateSaveDate = 299365217;
+			PBXWorkspaceStateSaveDate = 299365217;
 		};
 		perUserProjectItems = {
-			1B9EF47811D7C4D800298000 /* PBXTextBookmark */ = 1B9EF47811D7C4D800298000 /* PBXTextBookmark */;
-			1B9EF48F11D7C4FA00298000 /* PBXTextBookmark */ = 1B9EF48F11D7C4FA00298000 /* PBXTextBookmark */;
-			1BD7168111CED0310089FF36 /* PBXTextBookmark */ = 1BD7168111CED0310089FF36 /* PBXTextBookmark */;
+			1BD24E2711D7F2F300D04F14 /* PBXTextBookmark */ = 1BD24E2711D7F2F300D04F14 /* PBXTextBookmark */;
+			1BD24E9D11D7F36B00D04F14 /* PBXTextBookmark */ = 1BD24E9D11D7F36B00D04F14 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1BD7160C11CECB7C0089FF36 /* Source Control */;
 		userBuildSettings = {
@@ -97,12 +96,12 @@
 	};
 	08FB7796FE84155DC02AAC07 /* t.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {636, 694}}";
+			sepNavIntBoundsRect = "{{0, 0}, {849, 538}}";
 			sepNavSelRange = "{248, 0}";
 			sepNavVisRange = "{0, 248}";
 		};
 	};
-	1B9EF47811D7C4D800298000 /* PBXTextBookmark */ = {
+	1BD24E2711D7F2F300D04F14 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* t.m */;
 		name = "t.m: 12";
@@ -112,7 +111,7 @@
 		vrLen = 248;
 		vrLoc = 0;
 	};
-	1B9EF48F11D7C4FA00298000 /* PBXTextBookmark */ = {
+	1BD24E9D11D7F36B00D04F14 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* t.m */;
 		name = "t.m: 12";
@@ -185,23 +184,6 @@
 		modificationTime = 298766229.414294;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
-	};
-	1BD7168111CED0310089FF36 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1BD7168211CED0310089FF36 /* swap.c */;
-		name = "swap.c: 14";
-		rLen = 0;
-		rLoc = 203;
-		rType = 0;
-		vrLen = 228;
-		vrLoc = 0;
-	};
-	1BD7168211CED0310089FF36 /* swap.c */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.c;
-		name = swap.c;
-		path = /Users/Shared/Dropbox/workspace/projects/github.com/objc/Util/swap/swap.c;
-		sourceTree = "<absolute>";
 	};
 	8DD76F960486AA7600D96B5E /* t */ = {
 		activeExec = 0;

@@ -12,7 +12,7 @@ int main (int argc, const char * argv[]) {
   for (int i=2; i<=94; i++) {
     NSLog(@"Base%d : %@ : %@", i, s, [s stringAsBase:i]);
   }
-
+  
   [pool drain];
   return 0;
 }

@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'NSString+stringConvertedToBase' target in the 'NSString+stringConvertedToBase' project.
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-#endif

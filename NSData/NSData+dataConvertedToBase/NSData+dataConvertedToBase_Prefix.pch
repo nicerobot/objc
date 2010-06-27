@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'NSData+dataConvertedToBase' target in the 'NSData+dataConvertedToBase' project.
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-#endif

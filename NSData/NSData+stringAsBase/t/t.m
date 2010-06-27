@@ -3,7 +3,7 @@
 
 int main (int argc, const char * argv[]) {
   NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-
+  
   NSString *s;
   s = @"anna";
   for (int i=2; i<=94; i++) {
