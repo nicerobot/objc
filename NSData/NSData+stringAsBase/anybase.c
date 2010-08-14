@@ -61,12 +61,16 @@ void convertToBase(uint32_t* number, char* buf, int base) {
 }
 
 void test(int base) {
-  uint32_t a[SIZE] = {0xffffffff,0xffffffff,0xffffffff,0xffffffff,0xffffffff,0xffffffff,0xffffffff,0xffffffff,};
-  uint32_t b[SIZE] = {1,2,3,4,5,6,7,8};
+  uint32_t a[8] = {0xffffffff,0xffffffff,0xffffffff,0xffffffff,0xffffffff,0xffffffff,0xffffffff,0xffffffff,};
+  uint32_t b[8] = {1,2,3,4,5,6,7,8};
+  uint32_t c[3] = {0x1,0x7f,0xff};
   char buf[500];
   
   convertToBase(a, buf, base);
   printf("%2d : %s\n",base,buf);
   convertToBase(b, buf, base);
   printf("%2d : %s\n",base,buf);
+  convertToBase(c, buf, base);
+  printf("%2d : %s\n",base,buf);
 }
+

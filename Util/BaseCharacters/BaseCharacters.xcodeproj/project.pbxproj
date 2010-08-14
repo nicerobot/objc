@@ -18,14 +18,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 1BAC9A6411D7F56400A1B012 /* t.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E /* t */;
+			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
 			remoteInfo = t;
 		};
 		1BAC9A6F11D7F56400A1B012 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1BAC9A6411D7F56400A1B012 /* t.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 1BDB9F2111D78D6D007D2F8D /* Unit Tests.octest */;
+			remoteGlobalIDString = 1BDB9F2111D78D6D007D2F8D;
 			remoteInfo = "Unit Tests";
 		};
 /* End PBXContainerItemProxy section */
@@ -182,7 +182,14 @@
 			};
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "BaseCharacters" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* BaseCharacters */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";

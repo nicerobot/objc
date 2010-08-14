@@ -1,7 +1,7 @@
 // !$*UTF8*$!
 {
 	08FB7793FE84155DC02AAC07 /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = 1BB46C7D11D6C9FF00502915 /* t */;
 		activeTarget = 8DD76F960486AA7600D96B5E /* t */;
 		addToTargets = (
@@ -83,12 +83,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 299366094;
-			PBXWorkspaceStateSaveDate = 299366094;
+			PBXPerProjectTemplateStateSaveDate = 299467641;
+			PBXWorkspaceStateSaveDate = 299467641;
 		};
 		perUserProjectItems = {
-			1BAC9B0A11D7F6D700A1B012 /* PBXTextBookmark */ = 1BAC9B0A11D7F6D700A1B012 /* PBXTextBookmark */;
-			1BD24EAD11D7F37C00D04F14 /* PBXTextBookmark */ = 1BD24EAD11D7F37C00D04F14 /* PBXTextBookmark */;
+			1B97E3B711D9A19A0023692C /* PBXTextBookmark */ = 1B97E3B711D9A19A0023692C /* PBXTextBookmark */;
+			1B97E3B811D9A1C10023692C /* PBXTextBookmark */ = 1B97E3B811D9A1C10023692C /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1BB46C8611D6CA1100502915 /* Source Control */;
 		userBuildSettings = {
@@ -96,19 +96,29 @@
 	};
 	08FB7796FE84155DC02AAC07 /* t.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {704, 518}}";
-			sepNavSelRange = "{554, 0}";
-			sepNavVisRange = "{0, 554}";
+			sepNavIntBoundsRect = "{{0, 0}, {704, 509}}";
+			sepNavSelRange = "{463, 0}";
+			sepNavVisRange = "{0, 819}";
 		};
 	};
-	1BAC9B0A11D7F6D700A1B012 /* PBXTextBookmark */ = {
+	1B97E3B711D9A19A0023692C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* t.m */;
-		name = "t.m: 20";
+		name = "t.m: 14";
 		rLen = 0;
-		rLoc = 554;
+		rLoc = 463;
 		rType = 0;
-		vrLen = 554;
+		vrLen = 562;
+		vrLoc = 87;
+	};
+	1B97E3B811D9A1C10023692C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* t.m */;
+		name = "t.m: 14";
+		rLen = 0;
+		rLoc = 463;
+		rType = 0;
+		vrLen = 819;
 		vrLoc = 0;
 	};
 	1BB46C7D11D6C9FF00502915 /* t */ = {
@@ -154,16 +164,6 @@
 	1BB46C8711D6CA1100502915 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
-	};
-	1BD24EAD11D7F37C00D04F14 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* t.m */;
-		name = "t.m: 20";
-		rLen = 0;
-		rLoc = 554;
-		rType = 0;
-		vrLen = 554;
-		vrLoc = 0;
 	};
 	1BDB9D8E11D6DE88007D2F8D /* Unit Tests */ = {
 		activeExec = 0;

@@ -11,70 +11,10 @@
 #import "NSData+stringAsBase.h"
 #import "NSString+stringAsReverseString/NSString+stringAsReverseString.h"
 
-uint32_t divideBy(int base, uint32_t * number, int size) {
-  uint32_t r = 0;
-  uint32_t d;
-  for (int i=0; i<size; ++i) {
-    d = (number[i] + r*0x100000000) / base;
-    r = (number[i] + r*0x100000000) % base;
-    number[i] = d;
-  }
-  return r;
-}
-
-int zero(uint32_t* number, int size) {
-  for (int i=0; i<size; ++i) {
-    if (number[i] != 0) {
-      return 0;
-    }
-  }
-  return 1;
-}
-
 @implementation NSData (stringAsBase)
 
 -(NSString*) stringAsBase:(int) base {
   return [self stringAsBase:base withPadding:true];
-}
-
-/**
- * non power-of-2 base conversion. why doesn't it work for others?!
- */
--(NSString*) stringAsBaseX:(int) base {
-  return [self stringAsBaseX:base withPadding:true];
-}
-
-/**
- * non power-of-2 base conversion. why doesn't it work for others?!
- */
--(NSString*) stringAsBaseX:(int) base withPadding:(BOOL) pad {
-  
-  // baseN
-  NSString *bases = [BaseCharacters get:base];
-  if (!bases) return nil;
-  
-  int size = [self length];
-  
-  // NSString+Bases depends on this being an NSMutableString.
-  NSMutableString *result = [NSMutableString stringWithCapacity:size*4];
-  
-  int widen = 4-size%4;
-  size += widen;
-  unsigned char buf[size];
-  [self getBytes:buf+widen length:size];
-  while(widen) {
-    buf[--widen] = 0;
-  }
-  uint32_t *number = (uint32_t*) buf;
-  size /= 4;
-  
-  do {
-    uint32_t r = divideBy(base,number,size);
-    unsigned char c = [bases characterAtIndex:r];
-    [result appendFormat:@"%c",c];
-  } while(!zero(number,size));
-  
-  return [result stringAsReverseString];
 }
 
 -(NSString*) stringAsBase:(int) base withPadding:(BOOL) pad {
@@ -93,7 +33,8 @@ int zero(uint32_t* number, int size) {
   }
 
   unsigned char overflow = 0;
-  // If the base isn't a power of 2, use the last character of the base as an overflow indicator.
+  // If the base isn't a power of 2, use the last character of the base as an
+  // overflow indicator.
   if (0 != (maximum ^ (length+1))) {
     overflow = [bases characterAtIndex:length--];
   }

@@ -4,6 +4,7 @@
 		activeBuildConfigurationName = Release;
 		activeTarget = 8DC2EF4F0486A6940098B216 /* NSString+stringAsBase */;
 		addToTargets = (
+			8DC2EF4F0486A6940098B216 /* NSString+stringAsBase */,
 		);
 		codeSenseManager = 1B9EF4D111D7C8E200298000 /* Code sense */;
 		perUserDictionary = {
@@ -12,7 +13,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					516,
+					598,
 					20,
 					48,
 					43,
@@ -58,7 +59,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					476,
+					558,
 					60,
 					20,
 					48,
@@ -75,17 +76,37 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 299366127;
-			PBXWorkspaceStateSaveDate = 299366127;
+			PBXPerProjectTemplateStateSaveDate = 303441325;
+			PBXWorkspaceStateSaveDate = 303441325;
 		};
 		perUserProjectItems = {
+			1B5E9366121627AB000A47A1 /* PBXTextBookmark */ = 1B5E9366121627AB000A47A1 /* PBXTextBookmark */;
+			1B97E47111D9A6EA0023692C /* PBXTextBookmark */ = 1B97E47111D9A6EA0023692C /* PBXTextBookmark */;
 			1B9EF79311D7EE9C00298000 /* PBXTextBookmark */ = 1B9EF79311D7EE9C00298000 /* PBXTextBookmark */;
-			1BAC9B4711D7F71F00A1B012 /* PBXTextBookmark */ = 1BAC9B4711D7F71F00A1B012 /* PBXTextBookmark */;
-			1BD24E3911D7F34D00D04F14 /* PBXTextBookmark */ = 1BD24E3911D7F34D00D04F14 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1B9EF4D011D7C8E200298000 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	1B5E9366121627AB000A47A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1B9EF52911D7C9BD00298000 /* NSString+stringAsBase.m */;
+		name = "NSString+stringAsBase.m: 29";
+		rLen = 0;
+		rLoc = 976;
+		rType = 0;
+		vrLen = 1818;
+		vrLoc = 34;
+	};
+	1B97E47111D9A6EA0023692C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1B9EF52911D7C9BD00298000 /* NSString+stringAsBase.m */;
+		name = "NSString+stringAsBase.m: 29";
+		rLen = 0;
+		rLoc = 976;
+		rType = 0;
+		vrLen = 1900;
+		vrLoc = 34;
 	};
 	1B9EF4D011D7C8E200298000 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -110,9 +131,9 @@
 	};
 	1B9EF52911D7C9BD00298000 /* NSString+stringAsBase.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {694, 858}}";
+			sepNavIntBoundsRect = "{{0, 0}, {776, 845}}";
 			sepNavSelRange = "{976, 0}";
-			sepNavVisRange = "{34, 1900}";
+			sepNavVisRange = "{34, 1818}";
 		};
 	};
 	1B9EF79311D7EE9C00298000 /* PBXTextBookmark */ = {
@@ -124,26 +145,6 @@
 		rType = 0;
 		vrLen = 812;
 		vrLoc = 0;
-	};
-	1BAC9B4711D7F71F00A1B012 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1B9EF52911D7C9BD00298000 /* NSString+stringAsBase.m */;
-		name = "NSString+stringAsBase.m: 29";
-		rLen = 0;
-		rLoc = 976;
-		rType = 0;
-		vrLen = 1900;
-		vrLoc = 34;
-	};
-	1BD24E3911D7F34D00D04F14 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1B9EF52911D7C9BD00298000 /* NSString+stringAsBase.m */;
-		name = "NSString+stringAsBase.m: 29";
-		rLen = 0;
-		rLoc = 976;
-		rType = 0;
-		vrLen = 1999;
-		vrLoc = 34;
 	};
 	8DC2EF4F0486A6940098B216 /* NSString+stringAsBase */ = {
 		activeExec = 0;

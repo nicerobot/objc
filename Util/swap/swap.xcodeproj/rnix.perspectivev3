@@ -349,10 +349,10 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1B7EE86A11D8003D0066044C</string>
+										<string>1B5E932012162606000A47A1</string>
 										<key>history</key>
 										<array>
-											<string>1BAC9AE411D7F6A800A1B012</string>
+											<string>1B7EE86A11D8003D0066044C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -366,18 +366,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {894, 655}}</string>
+								<string>{{0, 0}, {894, 649}}</string>
 								<key>RubberWindowFrame</key>
 								<string>74 50 1101 978 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>655pt</string>
+							<string>649pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>277pt</string>
+							<string>283pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -391,7 +391,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {894, 250}}</string>
+										<string>{{10, 27}, {894, 256}}</string>
 										<key>RubberWindowFrame</key>
 										<string>74 50 1101 978 0 0 1680 1028 </string>
 									</dict>
@@ -475,11 +475,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1B7EE86B11D8003D0066044C</string>
+				<string>1B5E931C121625AF000A47A1</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>1B7EE86C11D8003D0066044C</string>
+				<string>1B5E931D121625AF000A47A1</string>
 				<string>1BD24DF711D7F2D400D04F14</string>
-				<string>1B7EE86D11D8003D0066044C</string>
+				<string>1B5E931E121625AF000A47A1</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -632,7 +632,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>299368509.02556998</real>
+	<real>303441414.66154802</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>

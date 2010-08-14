@@ -10,9 +10,6 @@
 
 @interface NSData (stringAsBase) 
 
--(NSString*) stringAsBaseX:(int) base;
--(NSString*) stringAsBaseX:(int) base withPadding:(BOOL) pad;
-
 -(NSString*) stringAsBase:(int) base;
 
 -(NSString*) stringAsBase2;

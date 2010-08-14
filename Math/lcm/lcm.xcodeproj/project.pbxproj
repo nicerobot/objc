@@ -13,6 +13,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1B5E934C121626EB000A47A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BD7126711CEBA540089FF36 /* gcd.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BD714FD11CEC5030089FF36 /* gcd.a */;
+			remoteInfo = gcd.a;
+		};
 		1BAC99D911D7F4D200A1B012 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1BAC99D111D7F4D200A1B012 /* t.xcodeproj */;
@@ -118,6 +125,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				1B5E934D121626EB000A47A1 /* PBXTargetDependency */,
 			);
 			name = lcm.a;
 			productName = lcm;
@@ -134,7 +142,14 @@
 			};
 			buildConfigurationList = 1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "lcm" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 08FB7794FE84155DC02AAC07 /* lcm */;
 			projectDirPath = "";
 			projectReferences = (
@@ -181,6 +196,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B5E934D121626EB000A47A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = gcd.a;
+			targetProxy = 1B5E934C121626EB000A47A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1BD7157611CEC69B0089FF36 /* Debug */ = {

@@ -17,11 +17,46 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1B5E932C12162660000A47A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B5E932812162660000A47A1 /* NSString+stringAsReverseString.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216 /* NSString+stringAsReverseString.framework */;
+			remoteInfo = "NSString+stringAsReverseString";
+		};
+		1B5E933212162670000A47A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B5E932E12162670000A47A1 /* BaseCharacters.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216 /* BaseCharacters.framework */;
+			remoteInfo = BaseCharacters;
+		};
+		1B5E935012162706000A47A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B5E932E12162670000A47A1 /* BaseCharacters.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* BaseCharacters */;
+			remoteInfo = BaseCharacters;
+		};
+		1B5E935212162711000A47A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B5E932812162660000A47A1 /* NSString+stringAsReverseString.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* NSString+stringAsReverseString */;
+			remoteInfo = "NSString+stringAsReverseString";
+		};
+		1B5E935412162717000A47A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B7EE82011D7FFD10066044C /* lcm.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BD7157411CEC69B0089FF36 /* lcm.a */;
+			remoteInfo = lcm.a;
+		};
 		1B7EE83811D7FFD10066044C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1B7EE82011D7FFD10066044C /* lcm.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 1BD7157511CEC69B0089FF36 /* liblcm.a */;
+			remoteGlobalIDString = 1BD7157511CEC69B0089FF36;
 			remoteInfo = lcm.a;
 		};
 		1BAC9AFF11D7F6CC00A1B012 /* PBXContainerItemProxy */ = {
@@ -45,6 +80,8 @@
 		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1B5E932812162660000A47A1 /* NSString+stringAsReverseString.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "NSString+stringAsReverseString.xcodeproj"; path = "../../NSString/NSString+stringAsReverseString/NSString+stringAsReverseString.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		1B5E932E12162670000A47A1 /* BaseCharacters.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BaseCharacters.xcodeproj; path = ../../Util/BaseCharacters/BaseCharacters.xcodeproj; sourceTree = SOURCE_ROOT; };
 		1B7EE82011D7FFD10066044C /* lcm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = lcm.xcodeproj; path = ../../Math/lcm/lcm.xcodeproj; sourceTree = SOURCE_ROOT; };
 		1BAC9AF611D7F6CC00A1B012 /* t.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = t.xcodeproj; path = t/t.xcodeproj; sourceTree = "<group>"; };
 		1BD7123711CEB9790089FF36 /* anybase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = anybase.c; sourceTree = "<group>"; };
@@ -85,10 +122,11 @@
 		0867D691FE84028FC02AAC07 /* NSData+stringAsBase */ = {
 			isa = PBXGroup;
 			children = (
+				1B5E932E12162670000A47A1 /* BaseCharacters.xcodeproj */,
+				1B5E932812162660000A47A1 /* NSString+stringAsReverseString.xcodeproj */,
 				1B7EE82011D7FFD10066044C /* lcm.xcodeproj */,
 				1BAC9AF611D7F6CC00A1B012 /* t.xcodeproj */,
 				1BDBA0C111D7B250007D2F8D /* liblcm.a */,
-				1BD7123711CEB9790089FF36 /* anybase.c */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				089C1665FE841158C02AAC07 /* Resources */,
@@ -145,6 +183,22 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
+		1B5E932912162660000A47A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E932D12162660000A47A1 /* NSString+stringAsReverseString.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B5E932F12162670000A47A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E933312162670000A47A1 /* BaseCharacters.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1B7EE82111D7FFD10066044C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +219,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1BD7123711CEB9790089FF36 /* anybase.c */,
 				32DBCF5E0370ADEE00C91783 /* NSData+stringAsBase_Prefix.pch */,
 			);
 			name = "Other Sources";
@@ -196,6 +251,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				1B5E935112162706000A47A1 /* PBXTargetDependency */,
+				1B5E935312162711000A47A1 /* PBXTargetDependency */,
+				1B5E935512162717000A47A1 /* PBXTargetDependency */,
 			);
 			name = "NSData+stringAsBase";
 			productInstallPath = "$(HOME)/Library/Frameworks";
@@ -213,14 +271,29 @@
 			};
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "NSData+stringAsBase" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* NSData+stringAsBase */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 1B5E932F12162670000A47A1 /* Products */;
+					ProjectRef = 1B5E932E12162670000A47A1 /* BaseCharacters.xcodeproj */;
+				},
+				{
 					ProductGroup = 1B7EE82111D7FFD10066044C /* Products */;
 					ProjectRef = 1B7EE82011D7FFD10066044C /* lcm.xcodeproj */;
+				},
+				{
+					ProductGroup = 1B5E932912162660000A47A1 /* Products */;
+					ProjectRef = 1B5E932812162660000A47A1 /* NSString+stringAsReverseString.xcodeproj */;
 				},
 				{
 					ProductGroup = 1BAC9AF711D7F6CC00A1B012 /* Products */;
@@ -235,6 +308,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		1B5E932D12162660000A47A1 /* NSString+stringAsReverseString.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "NSString+stringAsReverseString.framework";
+			remoteRef = 1B5E932C12162660000A47A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1B5E933312162670000A47A1 /* BaseCharacters.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BaseCharacters.framework;
+			remoteRef = 1B5E933212162670000A47A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		1B7EE83911D7FFD10066044C /* liblcm.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -279,6 +366,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B5E935112162706000A47A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaseCharacters;
+			targetProxy = 1B5E935012162706000A47A1 /* PBXContainerItemProxy */;
+		};
+		1B5E935312162711000A47A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSString+stringAsReverseString";
+			targetProxy = 1B5E935212162711000A47A1 /* PBXContainerItemProxy */;
+		};
+		1B5E935512162717000A47A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = lcm.a;
+			targetProxy = 1B5E935412162717000A47A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
