@@ -256,6 +256,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -295,12 +297,12 @@
 								<string>1BD7126711CEBA540089FF36</string>
 								<string>08FB7795FE84155DC02AAC07</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>1C37FAAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
-									<integer>8</integer>
+									<integer>12</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -321,7 +323,7 @@
 							<real>185</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>75 57 1030 971 0 0 1680 1028 </string>
+						<string>90 57 1030 971 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -349,10 +351,10 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1B5E934E121626F4000A47A1</string>
+										<string>1BA48B4E1290A9C1004FA697</string>
 										<key>history</key>
 										<array>
-											<string>1B5E933F121626B1000A47A1</string>
+											<string>1B8A7759128F567100562FBA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -366,23 +368,21 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {823, 639}}</string>
+								<string>{{0, 0}, {823, 488}}</string>
 								<key>RubberWindowFrame</key>
-								<string>75 57 1030 971 0 0 1680 1028 </string>
+								<string>90 57 1030 971 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>639pt</string>
+							<string>488pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>286pt</string>
+							<string>437pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -393,9 +393,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {823, 259}}</string>
+										<string>{{10, 27}, {823, 410}}</string>
 										<key>RubberWindowFrame</key>
-										<string>75 57 1030 971 0 0 1680 1028 </string>
+										<string>90 57 1030 971 0 0 1680 1028 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -449,7 +449,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {823, 259}}</string>
+										<string>{{10, 27}, {823, 331}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -477,11 +477,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1B5E9306121625AF000A47A1</string>
+				<string>1BA48B321290A9B7004FA697</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>1B5E9307121625AF000A47A1</string>
+				<string>1BA48B331290A9B7004FA697</string>
 				<string>1BA3643311D7F174005E45BF</string>
-				<string>1B5E9308121625AF000A47A1</string>
+				<string>1BA48B341290A9B7004FA697</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -634,7 +634,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>303441652.891195</real>
+	<real>311470529.06833702</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -654,7 +654,7 @@
 		<string>/Users/Shared/Dropbox/workspace/projects/github.com/objc/Math/lcm/lcm.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>75 57 1030 971 0 0 1680 1028 </string>
+	<string>90 57 1030 971 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

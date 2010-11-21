@@ -21,35 +21,35 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 1B5E932812162660000A47A1 /* NSString+stringAsReverseString.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216 /* NSString+stringAsReverseString.framework */;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
 			remoteInfo = "NSString+stringAsReverseString";
 		};
 		1B5E933212162670000A47A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1B5E932E12162670000A47A1 /* BaseCharacters.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216 /* BaseCharacters.framework */;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
 			remoteInfo = BaseCharacters;
 		};
 		1B5E935012162706000A47A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1B5E932E12162670000A47A1 /* BaseCharacters.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* BaseCharacters */;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = BaseCharacters;
 		};
 		1B5E935212162711000A47A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1B5E932812162660000A47A1 /* NSString+stringAsReverseString.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* NSString+stringAsReverseString */;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = "NSString+stringAsReverseString";
 		};
 		1B5E935412162717000A47A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1B7EE82011D7FFD10066044C /* lcm.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 1BD7157411CEC69B0089FF36 /* lcm.a */;
+			remoteGlobalIDString = 1BD7157411CEC69B0089FF36;
 			remoteInfo = lcm.a;
 		};
 		1B7EE83811D7FFD10066044C /* PBXContainerItemProxy */ = {

@@ -28,14 +28,19 @@ static BaseCharacters *sharedInstance = nil;
   bases[8] = [[NSString stringWithFormat:@"%@4567",bases[4]] retain];
   bases[10] = [[NSString stringWithFormat:@"%@89",bases[8]] retain];
   bases[16] = [[NSString stringWithFormat:@"%@abcdef",bases[10]] retain];
+
   bases[26] = @"abcdefghijklmnopqrstuvwxyz";
   // Alternate base32 chosen for readabilty, excluding "ilou"
   bases[32] = [[NSString stringWithFormat:@"%@ghjkmnpqrstvwxyz",bases[16]] retain];
   bases[52] = [[NSString stringWithFormat:@"%@%@",[bases[26] uppercaseString],bases[26]] retain];
-  bases[56] = @"ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz23456789";
   bases[64] = [[NSString stringWithFormat:@"%@%@+/",bases[52],bases[10]] retain];
   bases[85] = [[NSString stringWithFormat:@"%@%@!#$%&()*+-;<=>?@^_`{|}~",bases[10],bases[52]] retain];
   bases[94] = [[NSString stringWithFormat:@"%@[/]\\\"':,.",bases[85]] retain];
+
+  bases[24] = @"abcdefghijkmnpqrstuvwxyz";
+  bases[48] = [[NSString stringWithFormat:@"ABCDEFGHJKLMNPQRSTUVWXYZ%@",bases[24]] retain];
+  bases[56] = [[NSString stringWithFormat:@"%@23456789",bases[48]] retain];
+  bases[88] = [[NSString stringWithFormat:@"%@!#$%&()*+-;<=>?@^_`{|}~[/]\\\"':,.",bases[56]] retain];
 }
 
 + (BaseCharacters*)sharedInstance
