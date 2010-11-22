@@ -76,14 +76,13 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 311993352;
-			PBXWorkspaceStateSaveDate = 311993352;
+			PBXPerProjectTemplateStateSaveDate = 312154502;
+			PBXWorkspaceStateSaveDate = 312154502;
 		};
 		perUserProjectItems = {
 			1B1CFA46125AC902001E04FC /* PBXTextBookmark */ = 1B1CFA46125AC902001E04FC /* PBXTextBookmark */;
-			1BA48B751290AFC3004FA697 /* PBXTextBookmark */ = 1BA48B751290AFC3004FA697 /* PBXTextBookmark */;
-			1BA48FA91298A3EC004FA697 /* PBXTextBookmark */ = 1BA48FA91298A3EC004FA697 /* PBXTextBookmark */;
-			1BA48FB51298A40B004FA697 /* PBXTextBookmark */ = 1BA48FB51298A40B004FA697 /* PBXTextBookmark */;
+			1BA48FB91298CAAC004FA697 /* PBXTextBookmark */ = 1BA48FB91298CAAC004FA697 /* PBXTextBookmark */;
+			1BCEF8A6129B19BC001DD952 /* PBXTextBookmark */ = 1BCEF8A6129B19BC001DD952 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1B9EF4D011D7C8E200298000 /* Source Control */;
 		userBuildSettings = {
@@ -117,7 +116,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {776, 429}}";
 			sepNavSelRange = "{198, 0}";
-			sepNavVisRange = "{0, 806}";
+			sepNavVisRange = "{0, 755}";
 		};
 	};
 	1B9EF52911D7C9BD00298000 /* NSString+stringAsBase.m */ = {
@@ -127,27 +126,7 @@
 			sepNavVisRange = "{0, 1280}";
 		};
 	};
-	1BA48B751290AFC3004FA697 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1B9EF52811D7C9BD00298000 /* NSString+stringAsBase.h */;
-		name = "NSString+stringAsBase.h: 12";
-		rLen = 0;
-		rLoc = 198;
-		rType = 0;
-		vrLen = 812;
-		vrLoc = 0;
-	};
-	1BA48FA91298A3EC004FA697 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1B9EF52811D7C9BD00298000 /* NSString+stringAsBase.h */;
-		name = "NSString+stringAsBase.h: 12";
-		rLen = 0;
-		rLoc = 198;
-		rType = 0;
-		vrLen = 807;
-		vrLoc = 0;
-	};
-	1BA48FB51298A40B004FA697 /* PBXTextBookmark */ = {
+	1BA48FB91298CAAC004FA697 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1B9EF52811D7C9BD00298000 /* NSString+stringAsBase.h */;
 		name = "NSString+stringAsBase.h: 12";
@@ -155,6 +134,16 @@
 		rLoc = 198;
 		rType = 0;
 		vrLen = 806;
+		vrLoc = 0;
+	};
+	1BCEF8A6129B19BC001DD952 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1B9EF52811D7C9BD00298000 /* NSString+stringAsBase.h */;
+		name = "NSString+stringAsBase.h: 12";
+		rLen = 0;
+		rLoc = 198;
+		rType = 0;
+		vrLen = 755;
 		vrLoc = 0;
 	};
 	8DC2EF4F0486A6940098B216 /* NSString+stringAsBase */ = {

@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BA495F8129B0EE9004FA697 /* NSString+Adler32.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7123911CEB9790089FF36 /* NSString+Adler32.h */; };
+		1BA495F9129B0EED004FA697 /* NSString+Adler32.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7123A11CEB9790089FF36 /* NSString+Adler32.m */; };
+		1BA495FC129B0EF7004FA697 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		1BA495FD129B0EF9004FA697 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		1BA49625129B0F58004FA697 /* libAdler-32.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA49619129B0F39004FA697 /* libAdler-32.a */; };
+		1BA49644129B10A6004FA697 /* libAdler-32.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA49619129B0F39004FA697 /* libAdler-32.a */; };
+		1BA49650129B10E8004FA697 /* NSString+Adler32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* NSString+Adler32.framework */; };
+		1BA49653129B10ED004FA697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA490C51299F2BE004FA697 /* main.m */; };
+		1BD7124011CEB9790089FF36 /* NSString+Adler32.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD7123911CEB9790089FF36 /* NSString+Adler32.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BD7124111CEB9790089FF36 /* NSString+Adler32.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7123A11CEB9790089FF36 /* NSString+Adler32.m */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BA49618129B0F39004FA697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BA49613129B0F39004FA697 /* Adler-32.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "Adler-32.a";
+		};
+		1BA4961A129B0F39004FA697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BA49613129B0F39004FA697 /* Adler-32.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B929B971288F7D800C3795B;
+			remoteInfo = adler;
+		};
+		1BA49626129B0F67004FA697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BA49613129B0F39004FA697 /* Adler-32.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "Adler-32.a";
+		};
+		1BA49628129B0F77004FA697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BA495F4129B0EDF004FA697;
+			remoteInfo = NSStringAdler32;
+		};
+		1BA4965C129B110E004FA697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = "NSString+Adler32";
+		};
+		1BAC9AFF11D7F6CC00A1B012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BAC9AF611D7F6CC00A1B012 /* t.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
+			remoteInfo = t;
+		};
+		1BAC9B0111D7F6CC00A1B012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BAC9AF611D7F6CC00A1B012 /* t.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1BDB9D8F11D6DE88007D2F8D;
+			remoteInfo = "Unit Tests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1BA490C41299F2BE004FA697 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		1BA490C51299F2BE004FA697 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BA495F5129B0EDF004FA697 /* libNSStringAdler32.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSStringAdler32.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA49613129B0F39004FA697 /* Adler-32.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Adler-32.xcodeproj"; path = "../../Util/Adler-32/Adler-32.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		1BA4964A129B10D3004FA697 /* adler32 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = adler32; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAC9AF611D7F6CC00A1B012 /* t.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = t.xcodeproj; path = t/t.xcodeproj; sourceTree = "<group>"; };
+		1BD7123911CEB9790089FF36 /* NSString+Adler32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Adler32.h"; sourceTree = "<group>"; };
+		1BD7123A11CEB9790089FF36 /* NSString+Adler32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Adler32.m"; sourceTree = "<group>"; };
+		32DBCF5E0370ADEE00C91783 /* NSString+Adler32_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Adler32_Prefix.pch"; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* NSString+Adler32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "NSString+Adler32.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BA495F3129B0EDF004FA697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA49625129B0F58004FA697 /* libAdler-32.a in Frameworks */,
+				1BA495FD129B0EF9004FA697 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA49648129B10D3004FA697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA49650129B10E8004FA697 /* NSString+Adler32.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA49644129B10A6004FA697 /* libAdler-32.a in Frameworks */,
+				1BA495FC129B0EF7004FA697 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* NSString+Adler32.framework */,
+				1BA495F5129B0EDF004FA697 /* libNSStringAdler32.a */,
+				1BA4964A129B10D3004FA697 /* adler32 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* NSString+Adler32 */ = {
+			isa = PBXGroup;
+			children = (
+				1BA49613129B0F39004FA697 /* Adler-32.xcodeproj */,
+				1BAC9AF611D7F6CC00A1B012 /* t.xcodeproj */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = "NSString+Adler32";
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1BD7123911CEB9790089FF36 /* NSString+Adler32.h */,
+				1BD7123A11CEB9790089FF36 /* NSString+Adler32.m */,
+				1BA490C41299F2BE004FA697 /* main.h */,
+				1BA490C51299F2BE004FA697 /* main.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1BA49614129B0F39004FA697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BA49619129B0F39004FA697 /* libAdler-32.a */,
+				1BA4961B129B0F39004FA697 /* adler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BAC9AF711D7F6CC00A1B012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BAC9B0011D7F6CC00A1B012 /* t */,
+				1BAC9B0211D7F6CC00A1B012 /* Unit Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* NSString+Adler32_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BA495F1129B0EDF004FA697 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA495F8129B0EE9004FA697 /* NSString+Adler32.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD7124011CEB9790089FF36 /* NSString+Adler32.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BA495F4129B0EDF004FA697 /* NSStringAdler32 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA49610129B0F19004FA697 /* Build configuration list for PBXNativeTarget "NSStringAdler32" */;
+			buildPhases = (
+				1BA495F1129B0EDF004FA697 /* Headers */,
+				1BA495F2129B0EDF004FA697 /* Sources */,
+				1BA495F3129B0EDF004FA697 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BA49627129B0F67004FA697 /* PBXTargetDependency */,
+			);
+			name = NSStringAdler32;
+			productName = NSStringAdler32;
+			productReference = 1BA495F5129B0EDF004FA697 /* libNSStringAdler32.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1BA49649129B10D3004FA697 /* adler32 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA49660129B112C004FA697 /* Build configuration list for PBXNativeTarget "adler32" */;
+			buildPhases = (
+				1BA49647129B10D3004FA697 /* Sources */,
+				1BA49648129B10D3004FA697 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BA4965D129B110E004FA697 /* PBXTargetDependency */,
+			);
+			name = adler32;
+			productName = adler32;
+			productReference = 1BA4964A129B10D3004FA697 /* adler32 */;
+			productType = "com.apple.product-type.tool";
+		};
+		8DC2EF4F0486A6940098B216 /* NSString+Adler32 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "NSString+Adler32" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BA49629129B0F77004FA697 /* PBXTargetDependency */,
+			);
+			name = "NSString+Adler32";
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = "NSString+Adler32";
+			productReference = 8DC2EF5B0486A6940098B216 /* NSString+Adler32.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "NSString+Adler32" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* NSString+Adler32 */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1BA49614129B0F39004FA697 /* Products */;
+					ProjectRef = 1BA49613129B0F39004FA697 /* Adler-32.xcodeproj */;
+				},
+				{
+					ProductGroup = 1BAC9AF711D7F6CC00A1B012 /* Products */;
+					ProjectRef = 1BAC9AF611D7F6CC00A1B012 /* t.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* NSString+Adler32 */,
+				1BA495F4129B0EDF004FA697 /* NSStringAdler32 */,
+				1BA49649129B10D3004FA697 /* adler32 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1BA49619129B0F39004FA697 /* libAdler-32.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAdler-32.a";
+			remoteRef = 1BA49618129B0F39004FA697 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1BA4961B129B0F39004FA697 /* adler */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = adler;
+			remoteRef = 1BA4961A129B0F39004FA697 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1BAC9B0011D7F6CC00A1B012 /* t */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = t;
+			remoteRef = 1BAC9AFF11D7F6CC00A1B012 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1BAC9B0211D7F6CC00A1B012 /* Unit Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Unit Tests.octest";
+			remoteRef = 1BAC9B0111D7F6CC00A1B012 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BA495F2129B0EDF004FA697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA495F9129B0EED004FA697 /* NSString+Adler32.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA49647129B10D3004FA697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA49653129B10ED004FA697 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD7124111CEB9790089FF36 /* NSString+Adler32.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BA49627129B0F67004FA697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Adler-32.a";
+			targetProxy = 1BA49626129B0F67004FA697 /* PBXContainerItemProxy */;
+		};
+		1BA49629129B0F77004FA697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BA495F4129B0EDF004FA697 /* NSStringAdler32 */;
+			targetProxy = 1BA49628129B0F77004FA697 /* PBXContainerItemProxy */;
+		};
+		1BA4965D129B110E004FA697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* NSString+Adler32 */;
+			targetProxy = 1BA4965C129B110E004FA697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BA495F6129B0EE0004FA697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = NSStringAdler32;
+				USER_HEADER_SEARCH_PATHS = /tmp/build/Debug/usr/local/include;
+			};
+			name = Debug;
+		};
+		1BA495F7129B0EE0004FA697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = NSStringAdler32;
+				USER_HEADER_SEARCH_PATHS = /tmp/build/Release/usr/local/include;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1BA4964C129B10D4004FA697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = adler32;
+			};
+			name = Debug;
+		};
+		1BA4964D129B10D4004FA697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = adler32;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/tmp/build/Debug,
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSString+Adler32_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/tmp/build/Release,
+				);
+				PRODUCT_NAME = "NSString+Adler32";
+				SYMROOT = /tmp/build;
+				USER_HEADER_SEARCH_PATHS = /tmp/build/Debug/usr/local/include;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/tmp/build/Debug,
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSString+Adler32_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/tmp/build/Release,
+				);
+				PRODUCT_NAME = "NSString+Adler32";
+				SYMROOT = /tmp/build;
+				USER_HEADER_SEARCH_PATHS = /tmp/build/Release/usr/local/include;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				SYMROOT = /tmp/build;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				SYMROOT = /tmp/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BA49610129B0F19004FA697 /* Build configuration list for PBXNativeTarget "NSStringAdler32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA495F6129B0EE0004FA697 /* Debug */,
+				1BA495F7129B0EE0004FA697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA49660129B112C004FA697 /* Build configuration list for PBXNativeTarget "adler32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA4964C129B10D4004FA697 /* Debug */,
+				1BA4964D129B10D4004FA697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "NSString+Adler32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "NSString+Adler32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
