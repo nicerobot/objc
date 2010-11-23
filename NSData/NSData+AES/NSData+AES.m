@@ -33,7 +33,7 @@
 -(NSData*) encrypt:(NSData*) key
        withInitial:(NSData*)iv
         andPadding:(CCOptions)options {
-  return cipher(key,self,iv,kCCEncrypt,options);
+  return cipher(key,self,iv,kCCEncrypt,options,nil);
 }
 
 -(NSData*) decrypt:(NSData*) key {
@@ -58,7 +58,7 @@
 -(NSData*) decrypt:(NSData*) key
        withInitial:(NSData*)iv
         andPadding:(CCOptions)options {
-  return cipher(key,self,nil,kCCDecrypt,options);
+  return cipher(key,self,nil,kCCDecrypt,options,nil);
 }
 
 @end

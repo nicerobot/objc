@@ -13,4 +13,5 @@ NSData *cipher(NSData *key,
                NSData *value,
                NSData *iv,
                CCOperation operation,
-               CCOptions options);
+               CCOptions options,
+               NSMutableData *output);

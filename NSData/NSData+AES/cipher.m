@@ -13,8 +13,9 @@ NSData *cipher(NSData *key,
                NSData *value,
                NSData *iv,
                CCOperation operation,
-               CCOptions options)
-{
+               CCOptions options,
+               NSMutableData *output) {
+
   // NSLog(@"\nk=%@\nv=%@\ni=%@",key,value,iv);
   // SHA256 the key unless it's already 256 bits.
   if (kCCKeySizeAES256 != [key length]) {
@@ -30,7 +31,15 @@ NSData *cipher(NSData *key,
   
   int len = [value length];
   int capacity = (int)(len / kCCBlockSizeAES128 + 1) * kCCBlockSizeAES128;
-  NSMutableData *data = [NSMutableData dataWithLength:capacity];
+  NSMutableData *data;
+  if (nil == output) {
+    data = [NSMutableData dataWithLength:capacity];
+  } else {
+    data = output;
+    if ([data length] < capacity) {
+      [data setLength:capacity];
+    }
+  }
   
   /*
    NSLog(@"\nlen = %d, capacity = %d\n%@[%d]\n%@[%d]",

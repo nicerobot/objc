@@ -109,21 +109,31 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 312154853;
-			PBXWorkspaceStateSaveDate = 312154853;
+			PBXPerProjectTemplateStateSaveDate = 312156263;
+			PBXWorkspaceStateSaveDate = 312156263;
 		};
 		perUserProjectItems = {
+			1B3B7478129B207E000EA851 /* PBXTextBookmark */ = 1B3B7478129B207E000EA851 /* PBXTextBookmark */;
 			1BA49261129A2429004FA697 /* PBXTextBookmark */ = 1BA49261129A2429004FA697 /* PBXTextBookmark */;
 			1BA49264129A2429004FA697 /* PBXTextBookmark */ = 1BA49264129A2429004FA697 /* PBXTextBookmark */;
 			1BA49378129ABFD0004FA697 /* PBXTextBookmark */ = 1BA49378129ABFD0004FA697 /* PBXTextBookmark */;
 			1BA4949B129AE141004FA697 /* PBXTextBookmark */ = 1BA4949B129AE141004FA697 /* PBXTextBookmark */;
 			1BA49562129B0934004FA697 /* PBXTextBookmark */ = 1BA49562129B0934004FA697 /* PBXTextBookmark */;
-			1BCEF8C6129B19DB001DD952 /* PBXTextBookmark */ = 1BCEF8C6129B19DB001DD952 /* PBXTextBookmark */;
 			1BCEF905129B1B07001DD952 /* PBXTextBookmark */ = 1BCEF905129B1B07001DD952 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1BD7123511CEB9370089FF36 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	1B3B7478129B207E000EA851 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1BD7123911CEB9790089FF36 /* NSData+Output.h */;
+		name = "NSData+Output.h: 8";
+		rLen = 0;
+		rLoc = 159;
+		rType = 0;
+		vrLen = 414;
+		vrLoc = 0;
 	};
 	1BA4907E1298D9EC004FA697 /* CommonCryptor.h */ = {
 		isa = PBXFileReference;
@@ -260,16 +270,6 @@
 		vrLen = 930;
 		vrLoc = 33;
 	};
-	1BCEF8C6129B19DB001DD952 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1BD7123911CEB9790089FF36 /* NSData+Output.h */;
-		name = "NSData+Output.h: 8";
-		rLen = 0;
-		rLoc = 159;
-		rType = 0;
-		vrLen = 414;
-		vrLoc = 0;
-	};
 	1BCEF905129B1B07001DD952 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1BD7123911CEB9790089FF36 /* NSData+Output.h */;
@@ -303,7 +303,7 @@
 	};
 	1BD7123911CEB9790089FF36 /* NSData+Output.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {656, 431}}";
+			sepNavIntBoundsRect = "{{0, 0}, {656, 420}}";
 			sepNavSelRange = "{159, 0}";
 			sepNavVisRange = "{0, 414}";
 		};

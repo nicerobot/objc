@@ -117,7 +117,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 1B5E93211216263B000A47A1 /* NSData+AES.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 1BCEF915129B1B2C001DD952 /* libSHA256AESPKCS7.a */;
+			remoteGlobalIDString = 1BCEF915129B1B2C001DD952;
 			remoteInfo = SHA256AESPKCS7;
 		};
 /* End PBXContainerItemProxy section */
@@ -187,8 +187,8 @@
 		0867D691FE84028FC02AAC07 /* NSString+AES */ = {
 			isa = PBXGroup;
 			children = (
-				1BA494CD129AE377004FA697 /* NSData+Output.xcodeproj */,
 				1B5E93211216263B000A47A1 /* NSData+AES.xcodeproj */,
+				1BA494CD129AE377004FA697 /* NSData+Output.xcodeproj */,
 				1BAC9B2311D7F71100A1B012 /* t.xcodeproj */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
@@ -253,7 +253,7 @@
 				1B5E93261216263B000A47A1 /* NSData+AES.framework */,
 				1BA490D11299F420004FA697 /* aes */,
 				1BA4950E129B0548004FA697 /* libNSDataAES.a */,
-				1BCEF918129B1B2C001DD952 /* libSHA256AESPKCS7.a */,
+				1BCEF918129B1B2C001DD952 /* libSHA256AES.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -458,10 +458,10 @@
 			remoteRef = 1BAC9B2D11D7F71100A1B012 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		1BCEF918129B1B2C001DD952 /* libSHA256AESPKCS7.a */ = {
+		1BCEF918129B1B2C001DD952 /* libSHA256AES.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libSHA256AESPKCS7.a;
+			path = libSHA256AES.a;
 			remoteRef = 1BCEF917129B1B2C001DD952 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};

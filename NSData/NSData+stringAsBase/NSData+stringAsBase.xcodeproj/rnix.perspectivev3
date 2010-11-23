@@ -351,12 +351,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1BCEF8CA129B19DD001DD952</string>
+										<string>1B3B7470129B207D000EA851</string>
 										<key>history</key>
 										<array>
 											<string>1B97E3B911D9A1F40023692C</string>
 											<string>1B97E3BA11D9A1F40023692C</string>
-											<string>1BA48BAB1290C846004FA697</string>
+											<string>1BCEF8CA129B19DD001DD952</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -370,18 +370,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {717, 603}}</string>
+								<string>{{0, 0}, {717, 596}}</string>
 								<key>RubberWindowFrame</key>
 								<string>139 50 964 978 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>603pt</string>
+							<string>596pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>329pt</string>
+							<string>336pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -395,7 +395,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {717, 302}}</string>
+										<string>{{10, 27}, {717, 309}}</string>
 										<key>RubberWindowFrame</key>
 										<string>139 50 964 978 0 0 1680 1028 </string>
 									</dict>
@@ -479,11 +479,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1BCEF8CB129B19DD001DD952</string>
+				<string>1B3B7434129B207A000EA851</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>1BCEF8CC129B19DD001DD952</string>
+				<string>1B3B7435129B207A000EA851</string>
 				<string>1B9EF4A511D7C72300298000</string>
-				<string>1BCEF8CD129B19DD001DD952</string>
+				<string>1B3B7436129B207A000EA851</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -656,7 +656,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>312154589.382833</real>
+	<real>312156285.027183</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>

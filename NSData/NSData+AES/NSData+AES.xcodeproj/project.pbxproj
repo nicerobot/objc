@@ -97,14 +97,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1BCEF914129B1B2C001DD952 /* SHA256AES */;
+			remoteGlobalIDString = 1BCEF914129B1B2C001DD952;
 			remoteInfo = SHA256AES;
 		};
 		1BCEF925129B1C11001DD952 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1BA4950A129B0547004FA697 /* NSDataAES */;
+			remoteGlobalIDString = 1BA4950A129B0547004FA697;
 			remoteInfo = NSDataAES;
 		};
 /* End PBXContainerItemProxy section */

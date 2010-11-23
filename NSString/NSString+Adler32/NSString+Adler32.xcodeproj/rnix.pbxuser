@@ -112,19 +112,29 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 312154510;
-			PBXWorkspaceStateSaveDate = 312154510;
+			PBXPerProjectTemplateStateSaveDate = 312156259;
+			PBXWorkspaceStateSaveDate = 312156259;
 		};
 		perUserProjectItems = {
+			1B3B7476129B207E000EA851 /* PBXTextBookmark */ = 1B3B7476129B207E000EA851 /* PBXTextBookmark */;
 			1BA49264129A2429004FA697 /* PBXTextBookmark */ = 1BA49264129A2429004FA697 /* PBXTextBookmark */;
 			1BA49378129ABFD0004FA697 /* PBXTextBookmark */ = 1BA49378129ABFD0004FA697 /* PBXTextBookmark */;
 			1BA495E6129B0EA2004FA697 /* PBXTextBookmark */ = 1BA495E6129B0EA2004FA697 /* PBXTextBookmark */;
-			1BCEF8D6129B1A04001DD952 /* PBXTextBookmark */ = 1BCEF8D6129B1A04001DD952 /* PBXTextBookmark */;
 			1BCEF8D7129B1A04001DD952 /* PBXTextBookmark */ = 1BCEF8D7129B1A04001DD952 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1BD7123511CEB9370089FF36 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	1B3B7476129B207E000EA851 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1BD7123A11CEB9790089FF36 /* NSString+Adler32.m */;
+		name = "NSString+Adler32.m: 9";
+		rLen = 0;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 378;
+		vrLoc = 0;
 	};
 	1BA4907E1298D9EC004FA697 /* CommonCryptor.h */ = {
 		isa = PBXFileReference;
@@ -279,16 +289,6 @@
 		sourceDirectories = (
 		);
 	};
-	1BCEF8D6129B1A04001DD952 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1BD7123A11CEB9790089FF36 /* NSString+Adler32.m */;
-		name = "NSString+Adler32.m: 9";
-		rLen = 0;
-		rLoc = 173;
-		rType = 0;
-		vrLen = 378;
-		vrLoc = 0;
-	};
 	1BCEF8D7129B1A04001DD952 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1BD7123A11CEB9790089FF36 /* NSString+Adler32.m */;
@@ -322,7 +322,7 @@
 	};
 	1BD7123A11CEB9790089FF36 /* NSString+Adler32.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {656, 580}}";
+			sepNavIntBoundsRect = "{{0, 0}, {656, 573}}";
 			sepNavSelRange = "{173, 0}";
 			sepNavVisRange = "{0, 378}";
 			sepNavWindowFrame = "{{78, 11}, {1303, 991}}";
