@@ -12,6 +12,7 @@
 @interface NSData (AES)
 
 -(NSData*) encrypt:(NSData*) key;
+-(NSData*) encryptWithString:(NSString*) key;
 -(NSData*) encrypt:(NSData*) key
        withPadding:(CCOptions) options;
 -(NSData*) encrypt:(NSData*) key
@@ -21,6 +22,7 @@
         andPadding:(CCOptions) options;
 
 -(NSData*) decrypt:(NSData*) key;
+-(NSData*) decryptWithString:(NSString*) key;
 -(NSData*) decrypt:(NSData*) key
        withPadding:(CCOptions) options;
 -(NSData*) decrypt:(NSData*) key

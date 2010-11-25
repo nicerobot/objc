@@ -12,6 +12,7 @@
 
 -(NSString*) descriptionAsHex;
 -(const char*) descriptionAsHexUTF8String;
+-(NSString*) descriptionAsCharacters:(BOOL)encodeNonPrintable;
 -(NSString*) descriptionAsCharacters;
 
 -(void) writeToFilePointer:(FILE*) fp;

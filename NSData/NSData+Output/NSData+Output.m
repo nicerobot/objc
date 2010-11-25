@@ -23,14 +23,22 @@
   return [[self descriptionAsHex] UTF8String];
 }
 
--(NSString*) descriptionAsCharacters {
+-(NSString*) descriptionAsCharacters:(BOOL)encodeNonPrintable {
   NSMutableString *result = [NSMutableString stringWithCapacity:[self length]*2];
   int l = [self length];
   const char *b = [self bytes];
   for (int i=0; i<l; i++) {
-    [result appendFormat:@"%c",b[i]];
+    if (encodeNonPrintable && ! isprint(b[i])) {
+      [result appendFormat:@"\t%02x",(unsigned char)b[i]];
+    } else {
+      [result appendFormat:@"%c",b[i]];
+    }
   }
   return result;
+}
+
+-(NSString*) descriptionAsCharacters {
+  return [self descriptionAsCharacters:true];
 }
 
 -(void) writeToFilePointer:(FILE*) fp{

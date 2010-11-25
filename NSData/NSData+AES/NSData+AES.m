@@ -16,6 +16,11 @@
            withInitial:nil];
 }
 
+-(NSData*) encryptWithString:(NSString*) key {
+  return [self encrypt:[key dataUsingEncoding:NSUTF8StringEncoding]
+           withInitial:nil];
+}
+
 -(NSData*) encrypt:(NSData*) key
        withInitial:(NSData*)iv {
   return [self encrypt:key
@@ -38,6 +43,11 @@
 
 -(NSData*) decrypt:(NSData*) key {
   return [self decrypt:key
+           withInitial:nil];
+}
+
+-(NSData*) decryptWithString:(NSString*) key {
+  return [self decrypt:[key dataUsingEncoding:NSUTF8StringEncoding]
            withInitial:nil];
 }
 
