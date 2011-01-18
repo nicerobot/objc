@@ -9,6 +9,28 @@
 #include <CommonCrypto/CommonDigest.h>
 #import "cipher.h"
 
+NSData *sha1(NSData *bytes) {
+  NSMutableData *_md = [NSMutableData dataWithLength:16];
+  unsigned char *result = [_md mutableBytes];
+  if (result != CC_SHA1([bytes bytes], [bytes length], result)) {
+    @throw [NSException exceptionWithName:@"SHA1Exception"
+                                   reason:@"Unknown"
+                                 userInfo:nil];
+  }
+  return _md;
+}
+
+NSData *sha256(NSData *bytes) {
+  NSMutableData *_md = [NSMutableData dataWithLength:32];
+  unsigned char *result = [_md mutableBytes];
+  if (result != CC_SHA256([bytes bytes], [bytes length], result)) {
+    @throw [NSException exceptionWithName:@"SHA256Exception"
+                                   reason:@"Unknown"
+                                 userInfo:nil];
+  }
+  return _md;
+}
+
 NSData *cipher(NSData *key,
                NSData *value,
                NSData *iv,
@@ -19,14 +41,7 @@ NSData *cipher(NSData *key,
   // NSLog(@"\nk=%@\nv=%@\ni=%@",key,value,iv);
   // SHA256 the key unless it's already 256 bits.
   if (kCCKeySizeAES256 != [key length]) {
-    NSMutableData *_key = [NSMutableData dataWithLength:kCCKeySizeAES256];
-    unsigned char *result = [_key mutableBytes];
-    if (result != CC_SHA256([key bytes], [key length], result)) {
-      @throw [NSException exceptionWithName:@"SHA256Exception"
-                                     reason:@"Unknown"
-                                   userInfo:nil];
-    }
-    key = _key;
+    key = sha256(key);
   }
   
   int len = [value length];
@@ -51,14 +66,7 @@ NSData *cipher(NSData *key,
   
   // SHA1 the IV if provided.
   if (iv && kCCBlockSizeAES128 != [iv length]) {
-    NSMutableData *_iv = [NSMutableData dataWithLength:kCCBlockSizeAES128];
-    unsigned char *result = [_iv mutableBytes];
-    if (result != CC_SHA1([iv bytes], [iv length], result)) {
-      @throw [NSException exceptionWithName:@"SHA1Exception"
-                                     reason:@"Unknown"
-                                   userInfo:nil];
-    }
-    iv = _iv;
+    iv = sha1(iv);
   } else {
     iv = [NSMutableData dataWithLength:kCCBlockSizeAES128];
   }

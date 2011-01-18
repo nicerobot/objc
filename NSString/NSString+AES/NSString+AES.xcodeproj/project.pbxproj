@@ -36,6 +36,13 @@
 			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = "NSData+AES";
 		};
+		1B63444E12A32E9700DF243B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BA49570129B097F004FA697;
+			remoteInfo = NSStringAES;
+		};
 		1BA490D01299F420004FA697 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1B5E93211216263B000A47A1 /* NSData+AES.xcodeproj */;
@@ -357,6 +364,7 @@
 			);
 			dependencies = (
 				1B5E936512162792000A47A1 /* PBXTargetDependency */,
+				1B63444F12A32E9700DF243B /* PBXTargetDependency */,
 			);
 			name = "NSString+AES";
 			productInstallPath = "$(HOME)/Library/Frameworks";
@@ -510,6 +518,11 @@
 			isa = PBXTargetDependency;
 			name = "NSData+AES";
 			targetProxy = 1B5E936412162792000A47A1 /* PBXContainerItemProxy */;
+		};
+		1B63444F12A32E9700DF243B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BA49570129B097F004FA697 /* NSStringAES */;
+			targetProxy = 1B63444E12A32E9700DF243B /* PBXContainerItemProxy */;
 		};
 		1BA4931C129A314B004FA697 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

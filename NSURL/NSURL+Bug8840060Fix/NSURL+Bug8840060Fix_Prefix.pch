@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NSURL+Bug8840060Fix' target in the 'NSURL+Bug8840060Fix' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

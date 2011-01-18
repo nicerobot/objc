@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BA06C9C12A333C500A37371 /* cipher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BCEF91F129B1B5D001DD952 /* cipher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BA490D41299F437004FA697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA490C51299F2BE004FA697 /* main.m */; };
 		1BA490EE1299F4E1004FA697 /* NSData+AESKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA490EA1299F4E1004FA697 /* NSData+AESKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BA490EF1299F4E1004FA697 /* NSData+AESKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA490EB1299F4E1004FA697 /* NSData+AESKey.m */; };
@@ -312,6 +313,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA06C9C12A333C500A37371 /* cipher.h in Headers */,
 				1BD7124011CEB9790089FF36 /* NSData+AES.h in Headers */,
 				1BA490EE1299F4E1004FA697 /* NSData+AESKey.h in Headers */,
 				1BA490F01299F4E1004FA697 /* NSData+AESValue.h in Headers */,

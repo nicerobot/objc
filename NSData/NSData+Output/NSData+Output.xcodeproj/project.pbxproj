@@ -355,10 +355,7 @@
 				GCC_PREFIX_HEADER = "NSData+Output_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/tmp/build/Release,
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "NSData+Output";
 				SYMROOT = /tmp/build;
 				USER_HEADER_SEARCH_PATHS = /tmp/build/Debug/usr/local/include;
@@ -383,10 +380,7 @@
 				GCC_PREFIX_HEADER = "NSData+Output_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/tmp/build/Release,
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "NSData+Output";
 				SYMROOT = /tmp/build;
 				USER_HEADER_SEARCH_PATHS = /tmp/build/Release/usr/local/include;

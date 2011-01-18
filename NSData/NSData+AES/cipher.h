@@ -9,6 +9,9 @@
 #import <Cocoa/Cocoa.h>
 #import <CommonCrypto/CommonCryptor.h>
 
+NSData *sha1(NSData *bytes);
+NSData *sha256(NSData *bytes);
+
 NSData *cipher(NSData *key,
                NSData *value,
                NSData *iv,
