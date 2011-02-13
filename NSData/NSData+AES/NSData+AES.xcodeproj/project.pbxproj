@@ -705,10 +705,7 @@
 				GCC_PREFIX_HEADER = "NSData+AES_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/tmp/build/Release,
-				);
+				LIBRARY_SEARCH_PATHS = /tmp/build/Debug;
 				PRODUCT_NAME = "NSData+AES";
 				SYMROOT = /tmp/build;
 				USER_HEADER_SEARCH_PATHS = /tmp/build/Debug/usr/local/include;
