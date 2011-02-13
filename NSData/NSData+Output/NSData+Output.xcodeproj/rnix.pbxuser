@@ -106,12 +106,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 316101964;
-			PBXWorkspaceStateSaveDate = 316101964;
+			PBXPerProjectTemplateStateSaveDate = 318120297;
+			PBXWorkspaceStateSaveDate = 318120297;
 		};
 		perUserProjectItems = {
-			1B02528112D753B0000514CD /* PBXTextBookmark */ = 1B02528112D753B0000514CD /* PBXTextBookmark */;
-			1B4EA29712D755B700B578F9 /* PBXTextBookmark */ = 1B4EA29712D755B700B578F9 /* PBXTextBookmark */;
+			1B184E8D12F6218F00DAD708 /* PBXTextBookmark */ = 1B184E8D12F6218F00DAD708 /* PBXTextBookmark */;
+			1B184E8E12F6218F00DAD708 /* PBXTextBookmark */ = 1B184E8E12F6218F00DAD708 /* PBXTextBookmark */;
 			1BA49261129A2429004FA697 /* PBXTextBookmark */ = 1BA49261129A2429004FA697 /* PBXTextBookmark */;
 			1BA49264129A2429004FA697 /* PBXTextBookmark */ = 1BA49264129A2429004FA697 /* PBXTextBookmark */;
 			1BA49378129ABFD0004FA697 /* PBXTextBookmark */ = 1BA49378129ABFD0004FA697 /* PBXTextBookmark */;
@@ -122,25 +122,25 @@
 		userBuildSettings = {
 		};
 	};
-	1B02528112D753B0000514CD /* PBXTextBookmark */ = {
+	1B184E8D12F6218F00DAD708 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1BD7123A11CEB9790089FF36 /* NSData+Output.m */;
 		name = "NSData+Output.m: 33";
 		rLen = 0;
 		rLoc = 901;
 		rType = 0;
-		vrLen = 1108;
+		vrLen = 1103;
 		vrLoc = 196;
 	};
-	1B4EA29712D755B700B578F9 /* PBXTextBookmark */ = {
+	1B184E8E12F6218F00DAD708 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1BD7123A11CEB9790089FF36 /* NSData+Output.m */;
 		name = "NSData+Output.m: 33";
 		rLen = 0;
 		rLoc = 901;
 		rType = 0;
-		vrLen = 1108;
-		vrLoc = 196;
+		vrLen = 1111;
+		vrLoc = 0;
 	};
 	1BA4907E1298D9EC004FA697 /* CommonCryptor.h */ = {
 		isa = PBXFileReference;
@@ -255,7 +255,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {656, 741}}";
 			sepNavSelRange = "{901, 0}";
-			sepNavVisRange = "{196, 1108}";
+			sepNavVisRange = "{0, 1111}";
 			sepNavWindowFrame = "{{78, 11}, {1303, 991}}";
 		};
 	};
