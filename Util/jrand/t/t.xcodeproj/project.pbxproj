@@ -7,11 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BABF2E613A841A4000A833F /* libjRandom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BABF2E513A841A4000A833F /* libjRandom.a */; };
+		1B6AEBD013AB01CE00469EBD /* libjRandom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6AEBCF13AB01CE00469EBD /* libjRandom.a */; };
 		8DD76F9A0486AA7600D96B5E /* t.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* t.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		8DD76F9F0486AA7600D96B5E /* t.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* t.1 */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B6AEBC713AB017600469EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B6AEBC213AB017600469EBD /* jrand.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1BD715DA11CECAF90089FF36;
+			remoteInfo = jrand.a;
+		};
+		1B6AEBC913AB017600469EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B6AEBC213AB017600469EBD /* jrand.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1BABF2D613A84153000A833F;
+			remoteInfo = jRandom;
+		};
+		1B6AEBCB13AB018300469EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B6AEBC213AB017600469EBD /* jrand.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BD715D911CECAF90089FF36;
+			remoteInfo = jrand.a;
+		};
+		1B6AEBCD13AB018300469EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B6AEBC213AB017600469EBD /* jrand.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BABF2D513A84153000A833F;
+			remoteInfo = jRandom;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
@@ -30,8 +61,8 @@
 		08FB7796FE84155DC02AAC07 /* t.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = t.m; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		1B02EEFE13A832F50067ADD5 /* t.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = t.java; sourceTree = "<group>"; };
-		1BABF2E513A841A4000A833F /* libjRandom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libjRandom.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BABF2E713AAF72D000A833F /* libjrand.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libjrand.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6AEBC213AB017600469EBD /* jrand.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = jrand.xcodeproj; path = ../jrand.xcodeproj; sourceTree = "<group>"; };
+		1B6AEBCF13AB01CE00469EBD /* libjRandom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libjRandom.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A70AAB03705E1F00C91783 /* t_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t_Prefix.pch; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* t */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = t; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859EA3029092ED04C91782 /* t.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = t.1; sourceTree = "<group>"; };
@@ -42,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BABF2E613A841A4000A833F /* libjRandom.a in Frameworks */,
+				1B6AEBD013AB01CE00469EBD /* libjRandom.a in Frameworks */,
 				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,8 +84,8 @@
 		08FB7794FE84155DC02AAC07 /* t */ = {
 			isa = PBXGroup;
 			children = (
-				1BABF2E713AAF72D000A833F /* libjrand.a */,
-				1BABF2E513A841A4000A833F /* libjRandom.a */,
+				1B6AEBCF13AB01CE00469EBD /* libjRandom.a */,
+				1B6AEBC213AB017600469EBD /* jrand.xcodeproj */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				C6859EA2029092E104C91782 /* Documentation */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
@@ -89,6 +120,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1B6AEBC313AB017600469EBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B6AEBC813AB017600469EBD /* libjrand.a */,
+				1B6AEBCA13AB017600469EBD /* libjRandom.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C6859EA2029092E104C91782 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +151,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				1B6AEBCC13AB018300469EBD /* PBXTargetDependency */,
+				1B6AEBCE13AB018300469EBD /* PBXTargetDependency */,
 			);
 			name = t;
 			productInstallPath = "$(HOME)/bin";
@@ -135,12 +177,35 @@
 			);
 			mainGroup = 08FB7794FE84155DC02AAC07 /* t */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1B6AEBC313AB017600469EBD /* Products */;
+					ProjectRef = 1B6AEBC213AB017600469EBD /* jrand.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8DD76F960486AA7600D96B5E /* t */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1B6AEBC813AB017600469EBD /* libjrand.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjrand.a;
+			remoteRef = 1B6AEBC713AB017600469EBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1B6AEBCA13AB017600469EBD /* libjRandom.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjRandom.a;
+			remoteRef = 1B6AEBC913AB017600469EBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8DD76F990486AA7600D96B5E /* Sources */ = {
@@ -152,6 +217,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B6AEBCC13AB018300469EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = jrand.a;
+			targetProxy = 1B6AEBCB13AB018300469EBD /* PBXContainerItemProxy */;
+		};
+		1B6AEBCE13AB018300469EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = jRandom;
+			targetProxy = 1B6AEBCD13AB018300469EBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB927508733DD40010E9CD /* Debug */ = {

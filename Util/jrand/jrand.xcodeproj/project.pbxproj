@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1B6AEBC113AAF79C00469EBD /* jrand.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BD715ED11CECB380089FF36 /* jrand.c */; };
-		1BABF2D913A84153000A833F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BABF2D813A84153000A833F /* Cocoa.framework */; };
 		1BABF2E413A8415A000A833F /* JRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B9A18133D80E400D8A485 /* JRandom.m */; };
 		1BD715F111CECB380089FF36 /* jrand.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BD715ED11CECB380089FF36 /* jrand.c */; };
 		1BD715F211CECB380089FF36 /* jrand.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD715EE11CECB380089FF36 /* jrand.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,9 +27,6 @@
 		1B0B9A17133D80E400D8A485 /* JRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRandom.h; sourceTree = "<group>"; };
 		1B0B9A18133D80E400D8A485 /* JRandom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRandom.m; sourceTree = "<group>"; };
 		1BABF2D613A84153000A833F /* libjRandom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libjRandom.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BABF2D813A84153000A833F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		1BABF2DB13A84153000A833F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		1BABF2DC13A84153000A833F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1BABF2DD13A84153000A833F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1BABF2E013A84153000A833F /* jRandom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jRandom-Prefix.pch"; sourceTree = "<group>"; };
 		1BAC9A1611D7F51200A1B012 /* t.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = t.xcodeproj; path = t/t.xcodeproj; sourceTree = "<group>"; };
@@ -44,7 +40,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BABF2D913A84153000A833F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,11 +56,11 @@
 		08FB7794FE84155DC02AAC07 /* jrand */ = {
 			isa = PBXGroup;
 			children = (
-				1BAC9A1611D7F51200A1B012 /* t.xcodeproj */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				1BABF2DE13A84153000A833F /* jRandom */,
 				1BABF2D713A84153000A833F /* Frameworks */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
+				1BAC9A1611D7F51200A1B012 /* t.xcodeproj */,
 			);
 			name = jrand;
 			sourceTree = "<group>";
@@ -93,20 +88,9 @@
 		1BABF2D713A84153000A833F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1BABF2D813A84153000A833F /* Cocoa.framework */,
-				1BABF2DA13A84153000A833F /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1BABF2DA13A84153000A833F /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1BABF2DB13A84153000A833F /* AppKit.framework */,
-				1BABF2DC13A84153000A833F /* CoreData.framework */,
 				1BABF2DD13A84153000A833F /* Foundation.framework */,
 			);
-			name = "Other Frameworks";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1BABF2DE13A84153000A833F /* jRandom */ = {
