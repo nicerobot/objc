@@ -4,25 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Unit Tests.xcscheme</key>
+		<key>jRandom.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>27</integer>
+			<integer>3</integer>
 		</dict>
-		<key>t.xcscheme</key>
+		<key>jrand.a.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1BDB9DE311D6DFF5007D2F8D</key>
+		<key>1BABF2D513A84153000A833F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8DD76F960486AA7600D96B5E</key>
+		<key>1BD715D911CECAF90089FF36</key>
 		<dict>
 			<key>primary</key>
 			<true/>

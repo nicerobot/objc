@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B6AEBC113AAF79C00469EBD /* jrand.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BD715ED11CECB380089FF36 /* jrand.c */; };
+		1BABF2D913A84153000A833F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BABF2D813A84153000A833F /* Cocoa.framework */; };
+		1BABF2E413A8415A000A833F /* JRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B9A18133D80E400D8A485 /* JRandom.m */; };
+		1BD715F111CECB380089FF36 /* jrand.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BD715ED11CECB380089FF36 /* jrand.c */; };
+		1BD715F211CECB380089FF36 /* jrand.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD715EE11CECB380089FF36 /* jrand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BAC9A1F11D7F51200A1B012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BAC9A1611D7F51200A1B012 /* t.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
+			remoteInfo = t;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B0B9A17133D80E400D8A485 /* JRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRandom.h; sourceTree = "<group>"; };
+		1B0B9A18133D80E400D8A485 /* JRandom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRandom.m; sourceTree = "<group>"; };
+		1BABF2D613A84153000A833F /* libjRandom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libjRandom.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BABF2D813A84153000A833F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1BABF2DB13A84153000A833F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1BABF2DC13A84153000A833F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1BABF2DD13A84153000A833F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BABF2E013A84153000A833F /* jRandom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jRandom-Prefix.pch"; sourceTree = "<group>"; };
+		1BAC9A1611D7F51200A1B012 /* t.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = t.xcodeproj; path = t/t.xcodeproj; sourceTree = "<group>"; };
+		1BD715DA11CECAF90089FF36 /* libjrand.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libjrand.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD715ED11CECB380089FF36 /* jrand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jrand.c; sourceTree = "<group>"; };
+		1BD715EE11CECB380089FF36 /* jrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jrand.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BABF2D313A84153000A833F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BABF2D913A84153000A833F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD715D811CECAF90089FF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* jrand */ = {
+			isa = PBXGroup;
+			children = (
+				1BAC9A1611D7F51200A1B012 /* t.xcodeproj */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				1BABF2DE13A84153000A833F /* jRandom */,
+				1BABF2D713A84153000A833F /* Frameworks */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = jrand;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1BD715EE11CECB380089FF36 /* jrand.h */,
+				1BD715ED11CECB380089FF36 /* jrand.c */,
+				1B0B9A17133D80E400D8A485 /* JRandom.h */,
+				1B0B9A18133D80E400D8A485 /* JRandom.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BD715DA11CECAF90089FF36 /* libjrand.a */,
+				1BABF2D613A84153000A833F /* libjRandom.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BABF2D713A84153000A833F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BABF2D813A84153000A833F /* Cocoa.framework */,
+				1BABF2DA13A84153000A833F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BABF2DA13A84153000A833F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BABF2DB13A84153000A833F /* AppKit.framework */,
+				1BABF2DC13A84153000A833F /* CoreData.framework */,
+				1BABF2DD13A84153000A833F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1BABF2DE13A84153000A833F /* jRandom */ = {
+			isa = PBXGroup;
+			children = (
+				1BABF2DF13A84153000A833F /* Supporting Files */,
+			);
+			path = jRandom;
+			sourceTree = "<group>";
+		};
+		1BABF2DF13A84153000A833F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BABF2E013A84153000A833F /* jRandom-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BAC9A1711D7F51200A1B012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BAC9A2011D7F51200A1B012 /* t */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BABF2D413A84153000A833F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD715D611CECAF90089FF36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD715F211CECB380089FF36 /* jrand.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BABF2D513A84153000A833F /* jRandom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BABF2E113A84153000A833F /* Build configuration list for PBXNativeTarget "jRandom" */;
+			buildPhases = (
+				1BABF2D213A84153000A833F /* Sources */,
+				1BABF2D313A84153000A833F /* Frameworks */,
+				1BABF2D413A84153000A833F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jRandom;
+			productName = jRandom;
+			productReference = 1BABF2D613A84153000A833F /* libjRandom.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1BD715D911CECAF90089FF36 /* jrand.a */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD715E611CECB100089FF36 /* Build configuration list for PBXNativeTarget "jrand.a" */;
+			buildPhases = (
+				1BD715D611CECAF90089FF36 /* Headers */,
+				1BD715D711CECAF90089FF36 /* Sources */,
+				1BD715D811CECAF90089FF36 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jrand.a;
+			productName = jrand;
+			productReference = 1BD715DA11CECAF90089FF36 /* libjrand.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "jrand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* jrand */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1BAC9A1711D7F51200A1B012 /* Products */;
+					ProjectRef = 1BAC9A1611D7F51200A1B012 /* t.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1BD715D911CECAF90089FF36 /* jrand.a */,
+				1BABF2D513A84153000A833F /* jRandom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1BAC9A2011D7F51200A1B012 /* t */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = t;
+			remoteRef = 1BAC9A1F11D7F51200A1B012 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BABF2D213A84153000A833F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BABF2E413A8415A000A833F /* JRandom.m in Sources */,
+				1B6AEBC113AAF79C00469EBD /* jrand.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD715D711CECAF90089FF36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD715F111CECB380089FF36 /* jrand.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1BABF2E213A84153000A833F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jRandom/jRandom-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1BABF2E313A84153000A833F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jRandom/jRandom-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1BD715DB11CECAF90089FF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = jrand;
+				SYMROOT = /tmp/build;
+			};
+			name = Debug;
+		};
+		1BD715DC11CECAF90089FF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = jrand;
+				SYMROOT = /tmp/build;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1DEB914F08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = "";
+				SYMROOT = /tmp/build;
+			};
+			name = Debug;
+		};
+		1DEB915008733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "";
+				SYMROOT = /tmp/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BABF2E113A84153000A833F /* Build configuration list for PBXNativeTarget "jRandom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BABF2E213A84153000A833F /* Debug */,
+				1BABF2E313A84153000A833F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BD715E611CECB100089FF36 /* Build configuration list for PBXNativeTarget "jrand.a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD715DB11CECAF90089FF36 /* Debug */,
+				1BD715DC11CECAF90089FF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "jrand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914F08733D8E0010E9CD /* Debug */,
+				1DEB915008733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

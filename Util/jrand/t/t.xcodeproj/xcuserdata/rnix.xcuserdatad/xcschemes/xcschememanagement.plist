@@ -4,20 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Unit Tests.xcscheme</key>
+		<key>t.class.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>27</integer>
+			<integer>2</integer>
 		</dict>
 		<key>t.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1BDB9DE311D6DFF5007D2F8D</key>
+		<key>1B02EF0013A8355C0067ADD5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
