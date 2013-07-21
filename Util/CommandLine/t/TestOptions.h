@@ -1,15 +1,28 @@
-//
-//  TestOptions.h
-//  t
-//
-//  Created by Robert Nix on 2010.11.12.
-//  Copyright 2010 nicerobot.org. All rights reserved.
-//
+/* * Objective-C Augments - A small, miscellaneous set of Objective-C String and Data
+ * augmentations
+ * Copyright (C) 2011- nicerobot
+ *
+ * This file is part of Objective-C Augments.
+ *
+ * Objective-C Augments is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Objective-C Augments is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Objective-C Augments.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+
 
 #import <Cocoa/Cocoa.h>
 
 
-/*
  There are four data types for options:
  1. Boolean. BOOL
     They don't accept parameters.
@@ -30,17 +43,14 @@
  3. Positional.
     Each instance of the parameter is distinct and positional.
     Denoted by trailing _ in property name.
- */
 
 @interface TestOptions : NSObject
 
 @property BOOL positional$;
-// Options that have long equivalents should use the long's g/setter.
 @property (getter=getPositional$,setter=setPositional$) BOOL p$;
 
 @property BOOL version;
 @property BOOL verbose;
-// Uppercase and lowercase of the same letter require g/setter specified.
 @property (getter=getVersion,setter=setVersion) BOOL v;
 @property (getter=getVerbose,setter=setVerbose) BOOL V;
 
@@ -49,17 +59,12 @@
 @property (getter=getMoreHelp,setter=setMoreHelp) BOOL H;
 @property (getter=getHelp,setter=setHelp) BOOL h;
 
-// To manipulate an option's value during processing, don't provide
-// a g/setter of its equivalent long option. Instead, implement
-// the accessors explicitly to call the long option's accessor.
 @property int alwaysFive;
 @property int f;
 
 @property (copy) NSString* astring;
 @property int anint;
 
-// If an option can contain multiple values, its datatype is the name of
-// the option and the readonly parameter is its array store.
 @property (copy) NSMutableArray* multiple;
 @property (copy,getter=getMultiple,setter=setMultiple) NSMutableArray* m;
 
