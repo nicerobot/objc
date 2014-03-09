@@ -342,6 +342,7 @@
 				GCC_PREFIX_HEADER = t_Prefix.pch;
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = t;
+				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "${BUILT_PRODUCTS_DIR}/include";
 			};
 			name = Debug;
@@ -357,6 +358,7 @@
 				GCC_PREFIX_HEADER = t_Prefix.pch;
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = t;
+				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "${BUILT_PRODUCTS_DIR}/include";
 			};
 			name = Release;
@@ -371,7 +373,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 			};
 			name = Debug;
@@ -384,7 +386,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 			};
 			name = Release;

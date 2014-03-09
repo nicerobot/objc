@@ -169,6 +169,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
 				PRODUCT_NAME = gcd;
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 			};
 			name = Debug;
@@ -182,6 +183,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = gcd;
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 				ZERO_LINK = NO;
 			};
@@ -197,7 +199,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 			};
 			name = Debug;
@@ -210,7 +212,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 			};
 			name = Release;

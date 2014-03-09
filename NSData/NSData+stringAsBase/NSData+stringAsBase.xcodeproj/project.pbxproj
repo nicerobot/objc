@@ -422,6 +422,7 @@
 					/tmp/build/Release,
 				);
 				PRODUCT_NAME = "NSData+stringAsBase";
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 				USER_HEADER_SEARCH_PATHS = /tmp/build/Debug/usr/local/include;
 				WRAPPER_EXTENSION = framework;
@@ -450,6 +451,7 @@
 					/tmp/build/Release,
 				);
 				PRODUCT_NAME = "NSData+stringAsBase";
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 				USER_HEADER_SEARCH_PATHS = /tmp/build/Release/usr/local/include;
 				WRAPPER_EXTENSION = framework;
@@ -466,7 +468,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 			};
 			name = Debug;
@@ -479,7 +481,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 			};
 			name = Release;

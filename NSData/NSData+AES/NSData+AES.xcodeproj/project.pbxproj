@@ -588,6 +588,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = aes;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -610,6 +611,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = aes;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -623,6 +625,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
 				PRODUCT_NAME = NSDataAES;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -635,6 +638,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = NSDataAES;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -659,6 +663,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = SHA256AES;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -681,6 +686,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = SHA256AES;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -707,6 +713,7 @@
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
 				LIBRARY_SEARCH_PATHS = /tmp/build/Debug;
 				PRODUCT_NAME = "NSData+AES";
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 				USER_HEADER_SEARCH_PATHS = /tmp/build/Debug/usr/local/include;
 				WRAPPER_EXTENSION = framework;
@@ -735,6 +742,7 @@
 					/tmp/build/Release,
 				);
 				PRODUCT_NAME = "NSData+AES";
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 				USER_HEADER_SEARCH_PATHS = /tmp/build/Release/usr/local/include;
 				WRAPPER_EXTENSION = framework;
@@ -751,7 +759,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 			};
 			name = Debug;
@@ -764,7 +772,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 			};
 			name = Release;

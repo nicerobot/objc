@@ -14,13 +14,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1BD7161311CECBA70089FF36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1BD7160E11CECBA70089FF36 /* swap.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2AAC0630554660B00DB518D;
-			remoteInfo = swap.dylib;
-		};
 		1BD7161511CECBA70089FF36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1BD7160E11CECBA70089FF36 /* swap.xcodeproj */;
@@ -105,7 +98,6 @@
 		1BD7160F11CECBA70089FF36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BD7161411CECBA70089FF36 /* libswap.dylib */,
 				1BD7161611CECBA70089FF36 /* libswap.a */,
 			);
 			name = Products;
@@ -150,7 +142,11 @@
 			};
 			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "t" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 08FB7794FE84155DC02AAC07 /* t */;
 			projectDirPath = "";
 			projectReferences = (
@@ -167,13 +163,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		1BD7161411CECBA70089FF36 /* libswap.dylib */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = libswap.dylib;
-			remoteRef = 1BD7161311CECBA70089FF36 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		1BD7161611CECBA70089FF36 /* libswap.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -208,6 +197,7 @@
 				GCC_PREFIX_HEADER = t_Prefix.pch;
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = t;
+				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = ..;
 			};
 			name = Debug;
@@ -222,6 +212,7 @@
 				GCC_PREFIX_HEADER = t_Prefix.pch;
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = t;
+				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = ..;
 			};
 			name = Release;
@@ -236,7 +227,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 			};
 			name = Debug;
@@ -249,7 +240,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SYMROOT = /tmp/build;
 			};
 			name = Release;
