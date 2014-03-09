@@ -1,4 +1,6 @@
 .*~
+xcuserdata/
+*.xcuserstate
 *google1c4578d9e62c4dc6*
 .hg*
 .svn/
