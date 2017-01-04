@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Util/swap/swap.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Util/jrand/jrand.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Util/CommandLine/CommandLine.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Util/BaseCharacters/BaseCharacters.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Util/Adler-32/Adler-32.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSString/NSString+stringAsReverseString/NSString+stringAsReverseString.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSString/NSString+stringAsBase/NSString+stringAsBase.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSString/NSString+AES/NSString+AES.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSString/NSString+Adler32/NSString+Adler32.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSData/NSData+stringAsBase/NSData+stringAsBase.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSData/NSData+Output/NSData+Output.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSData/NSData+AES/NSData+AES.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSData/NSData+Adler32/NSData+Adler32.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Math/lcm/lcm.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Math/gcd/gcd.xcodeproj">
+   </FileRef>
+</Workspace>
